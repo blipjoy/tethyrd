@@ -12,7 +12,7 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="2" sx="1.0" sy="1.0" x="307" y="174" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="0" id="2" sx="1.0" sy="1.0" x="176" y="174" z="0"/>
     </actors>
     <snippets/>
     <terrain/>

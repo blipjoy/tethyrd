@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
     <sprite atlasID="0" default="0" desc="" height="32" id="3" name="player" shared="false" width="32">
-        <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" width="32">
+        <anim across="10" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100,100,100" height="32" id="0" loop="true" name="Animation 0" numframes="10" originx="16" originy="16" width="320">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
