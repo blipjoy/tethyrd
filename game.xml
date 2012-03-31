@@ -9,10 +9,10 @@
         <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
-        <key id="0" keyname="UP" name="up" vk="38"/>
-        <key id="1" keyname="DOWN" name="down" vk="40"/>
-        <key id="2" keyname="LEFT" name="left" vk="37"/>
-        <key id="3" keyname="RIGHT" name="right" vk="39"/>
+        <key id="0" keyname="W" name="up" vk="87"/>
+        <key id="1" keyname="S" name="down" vk="83"/>
+        <key id="2" keyname="A" name="left" vk="65"/>
+        <key id="3" keyname="D" name="right" vk="68"/>
         <key id="4" keyname="Z" name="action1" vk="90"/>
         <key id="5" keyname="X" name="action2" vk="88"/>
         <key id="6" keyname="ENTER" name="enter" vk="10"/>
@@ -49,7 +49,7 @@
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="2,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="2,5,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>
