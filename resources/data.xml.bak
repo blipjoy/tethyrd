@@ -12,4 +12,5 @@
             </s>
         </snippets>
     </actor>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="434" id="4" name="test_background" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
 </pack>
