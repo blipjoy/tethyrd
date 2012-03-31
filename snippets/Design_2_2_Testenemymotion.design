@@ -9,12 +9,12 @@
                 <setvel comment="false" x="71" y="92">
                     <ACTOR eid="this" id="0"/>
                     <randint comment="false" id="1" x="0" y="0">
-                        <int id="0" val="90"/>
-                        <int id="1" val="180"/>
+                        <int id="0" val="190"/>
+                        <int id="1" val="50"/>
                     </randint>
                     <randint comment="false" id="2" x="0" y="0">
                         <int id="0" val="5"/>
-                        <int id="1" val="25"/>
+                        <int id="1" val="15"/>
                     </randint>
                 </setvel>
             </group>
