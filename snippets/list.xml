@@ -22,4 +22,8 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet class="scripts.Design_4_4_Debug" desc="" description="" design="true" drawOrder="0" id="4" language="" name="Debug" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
