@@ -2,13 +2,20 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
-            <group eventID="-1" id="-1"/>
+            <group eventID="-1" id="-1">
+                <ignore-screen-tolerance comment="false" x="71" y="65">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+                <mousedisp comment="false" x="71" y="92">
+                    <int id="0" val="0"/>
+                </mousedisp>
+            </group>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="60" y="126">
+        <step comment="false" x="58" y="143">
             <group eventID="-1" id="-1">
-                <set-xy comment="false" x="71" y="151">
+                <set-xy comment="false" x="69" y="168">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
                     <minus comment="false" id="2" x="0" y="0">
@@ -22,7 +29,7 @@
                         </get-wh>
                     </minus>
                 </set-xy>
-                <set-xy comment="false" x="71" y="196">
+                <set-xy comment="false" x="69" y="213">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
