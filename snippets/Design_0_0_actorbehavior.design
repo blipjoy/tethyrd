@@ -2,7 +2,15 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="48" y="7">
-            <group eventID="-1" id="-1"/>
+            <group eventID="-1" id="-1">
+                <scaleTo comment="false" x="59" y="32">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="25"/>
+                    <int id="2" val="25"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+            </group>
         </init>
     </group>
     <group eventID="-1" id="1">
@@ -34,7 +42,11 @@
                 </else-if>
                 <if comment="false" x="58" y="262">
                     <group eventID="-1" id="-1">
-                        <setvel comment="false" x="69" y="295">
+                        <setanim comment="false" x="69" y="295">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Walk Cycle"/>
+                        </setanim>
+                        <setvel comment="false" x="69" y="322">
                             <ACTOR eid="this" id="0"/>
                             <getdir comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -47,9 +59,13 @@
                         <CONTROL eid="0" id="1"/>
                     </keystate>
                 </if>
-                <else-if comment="false" x="58" y="347">
+                <else-if comment="false" x="58" y="374">
                     <group eventID="-1" id="-1">
-                        <setvel comment="false" x="69" y="380">
+                        <setanim comment="false" x="69" y="407">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Walk Cycle"/>
+                        </setanim>
+                        <setvel comment="false" x="69" y="434">
                             <ACTOR eid="this" id="0"/>
                             <getdir comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -62,9 +78,13 @@
                         <CONTROL eid="1" id="1"/>
                     </keystate>
                 </else-if>
-                <else comment="false" x="58" y="432">
+                <else comment="false" x="58" y="486">
                     <group eventID="-1" id="-1">
-                        <setvel comment="false" x="69" y="452">
+                        <setanim comment="false" x="69" y="506">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Stand"/>
+                        </setanim>
+                        <setvel comment="false" x="69" y="533">
                             <ACTOR eid="this" id="0"/>
                             <getdir comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -82,7 +102,7 @@
         </collide>
     </group>
     <group eventID="-1" id="3">
-        <draw comment="false" x="529" y="14">
+        <draw comment="false" x="559" y="12">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
