@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <snippet class="scripts.Design_0_0_actorbehavior" desc="" description="" design="true" drawOrder="0" id="0" language="" name="actor_behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+    <snippet class="scripts.Design_0_0_actorbehavior" desc="Player controls" description="Player controls" design="true" drawOrder="0" id="0" language="" name="player_behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
