@@ -3,6 +3,7 @@
     <snippet class="scripts.Design_0_0_actorbehavior" desc="Player controls" description="Player controls" design="true" drawOrder="0" id="0" language="" name="Player Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="Player walking left or right" dropdown="" fullname="walking_x" hidden="false" id="1" name="_walkingx" order="1"/>
         <boolean default="false" desc="Player walking forward or back" dropdown="" fullname="walking_y" hidden="false" id="2" name="_walkingy" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="Mouse_Bullet_press" hidden="false" id="3" name="_MouseBulletpress" order="3"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
@@ -13,7 +14,10 @@
         <events/>
     </snippet>
     <snippet class="scripts.Design_2_2_Enemymotion" desc="" description="" design="true" drawOrder="0" id="2" language="" name="Enemy_motion" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <number default="0" desc="" dropdown="" fullname="HP" hidden="false" id="1" name="_HP" order="1"/>
+        <number default="0" desc="" dropdown="" fullname="Enemy_HP" hidden="false" id="2" name="_EnemyHP" order="2"/>
+        <number default="0" desc="" dropdown="" fullname="HP_Enemy" hidden="false" id="3" name="_HPEnemy" order="3"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
@@ -69,6 +73,11 @@
         <boolean default="false" desc="" dropdown="" fullname="attached" hidden="false" id="2" name="_attached" order="2"/>
         <boolean default="false" desc="" dropdown="" fullname="detaching" hidden="false" id="3" name="_detaching" order="3"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_9_9_bulletmovment" desc="" description="" design="true" drawOrder="0" id="9" language="" name="bullet_movment" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
         <blocks/>
         <events/>
     </snippet>
