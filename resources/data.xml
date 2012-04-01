@@ -15,6 +15,17 @@
             </s>
         </snippets>
     </actor>
+    <music desc="" id="38" loop="true" name="Bullet Impact Body Multiple" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="39" loop="true" name="Bullet Impact Body Single" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="40" loop="true" name="Bullet Impact Glass" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="41" loop="true" name="Bullet Impact Metal Multiple" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="42" loop="true" name="Bullet Impact Metal Single" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="45" loop="true" name="Bullet Shot 1" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="46" loop="true" name="Bullet Shot 2" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="47" loop="true" name="Bullet Shot 3" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="48" loop="true" name="Bullet Shot 4" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="43" loop="true" name="Bullet Shot Burst" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="44" loop="true" name="Bullet Shot Pop" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="4" id="9" ignoreg="false" inertia="0.05" ldamp="0.6" lw="false" mass="0.05" name="Cord" oid="-1" pausable="true" rest="0.0" shared="false" sprite="10" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="6">
@@ -66,6 +77,7 @@
         <blank name="joint" order="0" type="OBJECT"/>
         <blank name="this" order="1" type="OBJECT"/>
     </custom-block>
+    <music desc="" id="49" loop="true" name="Enemy Grumbling" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="1" desc="" height="64" id="28" name="Enemy_1" shared="false" width="64">
         <anim across="6" atlasID="-1" down="1" durations="100,100,100,100,100,100" height="64" id="1" loop="true" name="Walk Cycle" numframes="6" originx="32" originy="32" width="384">
             <poly data="4,20,20,40,20,40,40,20,40" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
@@ -111,6 +123,8 @@
         <tile collision="36" data="" durations="100" frames="22" id="22" order="-1"/>
         <tile collision="37" data="" durations="100" frames="23" id="23" order="-1"/>
     </tileset>
+    <music desc="" id="50" loop="true" name="Pickup 1" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="51" loop="true" name="Pickup 2" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="4" desc="" height="64" id="3" name="player" shared="false" width="64">
         <anim across="10" atlasID="-1" down="1" durations="100,100,100,100,100,100,100,100,100,100" height="64" id="2" loop="true" name="Walk Cycle" numframes="10" originx="32" originy="32" width="640">
             <circle data="16,10,16" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
@@ -132,6 +146,7 @@
             </s>
         </snippets>
     </actor>
+    <music desc="" id="52" loop="true" name="Plug In Gun" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <sprite atlasID="0" default="0" desc="" height="8" id="10" name="rope" shared="false" width="16">
         <anim across="1" atlasID="-1" down="1" durations="100" height="8" id="0" loop="true" name="Cord" numframes="1" originx="8" originy="4" width="16"/>
         <anim across="1" atlasID="-1" down="1" durations="100" height="20" id="1" loop="true" name="Plug" numframes="1" originx="10" originy="10" width="20">
