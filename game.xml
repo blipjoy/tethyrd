@@ -25,11 +25,13 @@
             <r id="45"/>
             <r id="51"/>
             <r id="50"/>
-            <r id="49"/>
             <r id="48"/>
             <r id="52"/>
         </group>
-        <group desc="" id="3" name="Music" type="sound"/>
+        <group desc="" id="3" name="Ambience" type="sound">
+            <r id="49"/>
+        </group>
+        <group desc="" id="4" name="Music" type="sound"/>
     </folders>
     <packs/>
     <groups>
