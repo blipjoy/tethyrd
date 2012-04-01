@@ -9,40 +9,40 @@
                 <kill-leave-screen comment="false" x="71" y="85">
                     <ACTOR eid="this" id="0"/>
                 </kill-leave-screen>
-                <scaleTo comment="false" x="71" y="112">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="25"/>
-                    <int id="2" val="25"/>
-                    <int id="3" val="0"/>
-                    <int id="4" val="0"/>
-                </scaleTo>
-                <setvel comment="false" x="71" y="139">
-                    <ACTOR eid="this" id="0"/>
-                    <randint comment="false" id="1" x="0" y="0">
+                <set-val-2-4 comment="false" x="71" y="112">
+                    <randint comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                         <int id="1" val="359"/>
                     </randint>
+                </set-val-2-4>
+                <setvel comment="false" x="71" y="137">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-2-4 comment="false" id="1" x="0" y="0"/>
                     <randint comment="false" id="2" x="0" y="0">
                         <int id="0" val="5"/>
                         <int id="1" val="15"/>
                     </randint>
                 </setvel>
+                <setangle comment="false" x="71" y="169">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-2-4 comment="false" id="1" x="0" y="0"/>
+                </setangle>
             </group>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="61" y="194">
+        <step comment="false" x="624" y="38">
             <group eventID="-1" id="-1"/>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="60" y="264">
+        <collide comment="false" x="56" y="264">
             <group eventID="-1" id="-1">
-                <if comment="false" x="71" y="289">
+                <if comment="false" x="67" y="289">
                     <group eventID="-1" id="-1">
-                        <if comment="false" x="82" y="327">
+                        <if comment="false" x="78" y="327">
                             <group eventID="-1" id="-1">
-                                <incdec comment="false" x="93" y="357">
+                                <incdec comment="false" x="89" y="357">
                                     <int id="0" val="2"/>
                                     <int id="1" val="1"/>
                                     <int id="2" val="1"/>
@@ -53,9 +53,9 @@
                                 <int id="1" val="1"/>
                             </more>
                         </if>
-                        <else comment="false" x="82" y="396">
+                        <else comment="false" x="78" y="396">
                             <group eventID="-1" id="-1">
-                                <die comment="false" x="93" y="416">
+                                <die comment="false" x="89" y="416">
                                     <ACTOR eid="this" id="0"/>
                                 </die>
                             </group>
@@ -86,14 +86,12 @@
                             <get-val-2-2 comment="false" id="0" x="0" y="0"/>
                             <int id="1" val="3"/>
                         </div>
-                        <int id="1" val="256"/>
+                        <int id="1" val="64"/>
                     </times>
-                    <int id="4" val="16"/>
+                    <int id="4" val="4"/>
                 </drawfill-rect>
             </group>
         </draw>
     </group>
-    <group id="-1">
-        <get-val-2-2 comment="false" x="979" y="590"/>
-    </group>
+    <group id="-1"/>
 </groups>

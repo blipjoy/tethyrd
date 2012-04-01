@@ -6,19 +6,12 @@
                 <set-val-0-3 comment="false" x="32" y="41">
                     <true comment="false" id="0" x="0" y="0"/>
                 </set-val-0-3>
-                <scaleTo comment="false" x="32" y="66">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="25"/>
-                    <int id="2" val="25"/>
-                    <int id="3" val="0"/>
-                    <int id="4" val="0"/>
-                </scaleTo>
-                <actor-set-prop comment="false" x="32" y="93">
+                <actor-set-prop comment="false" x="32" y="66">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="attached"/>
                     <false comment="false" id="2" x="0" y="0"/>
                 </actor-set-prop>
-                <custom-17 comment="false" x="32" y="125">
+                <custom-17 comment="false" x="32" y="98">
                     <ACTOR eid="this" id="0"/>
                 </custom-17>
             </group>

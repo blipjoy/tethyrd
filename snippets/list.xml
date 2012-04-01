@@ -13,15 +13,16 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet class="scripts.Design_2_2_Enemymotion" desc="" description="" design="true" drawOrder="0" id="2" language="" name="Enemy_motion" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+    <snippet class="scripts.Design_2_2_Enemymotion" desc="" description="" design="true" drawOrder="0" id="2" language="" name="Enemy Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <number default="0" desc="" dropdown="" fullname="HP" hidden="false" id="1" name="_HP" order="1"/>
         <number default="0" desc="" dropdown="" fullname="Enemy_HP" hidden="false" id="2" name="_EnemyHP" order="2"/>
         <number default="0" desc="" dropdown="" fullname="HP_Enemy" hidden="false" id="3" name="_HPEnemy" order="3"/>
+        <number default="0" desc="" dropdown="" fullname="direction" hidden="false" id="4" name="_direction" order="4"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
-    <snippet class="scripts.Design_3_3_EnemyCreation" desc="" description="" design="true" drawOrder="0" id="3" language="" name="Enemy_Creation" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+    <snippet class="scripts.Design_3_3_EnemyCreation" desc="" description="" design="true" drawOrder="0" id="3" language="" name="Enemy Spawn" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
