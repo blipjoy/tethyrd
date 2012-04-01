@@ -58,48 +58,68 @@
                         <int id="1" val="3"/>
                     </randint>
                 </set-val-9-2>
-                <if comment="false" x="75" y="289">
+                <set-volume-channel comment="false" x="75" y="289">
+                    <int id="0" val="40"/>
+                    <int id="1" val="7"/>
+                </set-volume-channel>
+                <set-volume-channel comment="false" x="75" y="309">
+                    <int id="0" val="60"/>
+                    <int id="1" val="8"/>
+                </set-volume-channel>
+                <set-volume-channel comment="false" x="75" y="329">
+                    <int id="0" val="100"/>
+                    <int id="1" val="9"/>
+                </set-volume-channel>
+                <set-volume-channel comment="false" x="75" y="349">
+                    <int id="0" val="40"/>
+                    <int id="1" val="10"/>
+                </set-volume-channel>
+                <if comment="false" x="75" y="369">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="86" y="319">
+                        <play-sound-channel comment="false" x="86" y="399">
                             <int id="0" val="0"/>
                             <SOUND eid="45" id="1"/>
-                        </play-sound4>
+                            <int id="2" val="7"/>
+                        </play-sound-channel>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-val-9-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="75" y="358">
+                <else-if comment="false" x="75" y="438">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="86" y="388">
+                        <play-sound-channel comment="false" x="86" y="468">
                             <int id="0" val="0"/>
                             <SOUND eid="46" id="1"/>
-                        </play-sound4>
+                            <int id="2" val="8"/>
+                        </play-sound-channel>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-val-9-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </eq>
                 </else-if>
-                <else-if comment="false" x="75" y="427">
+                <else-if comment="false" x="75" y="507">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="86" y="457">
+                        <play-sound-channel comment="false" x="86" y="537">
                             <int id="0" val="0"/>
                             <SOUND eid="47" id="1"/>
-                        </play-sound4>
+                            <int id="2" val="9"/>
+                        </play-sound-channel>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <get-val-9-2 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="2"/>
                     </eq>
                 </else-if>
-                <else comment="false" x="75" y="496">
+                <else comment="false" x="75" y="576">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="86" y="516">
+                        <play-sound-channel comment="false" x="86" y="596">
                             <int id="0" val="0"/>
                             <SOUND eid="48" id="1"/>
-                        </play-sound4>
+                            <int id="2" val="10"/>
+                        </play-sound-channel>
                     </group>
                 </else>
             </group>
@@ -111,14 +131,14 @@
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="63" y="596">
+        <collide comment="false" x="63" y="671">
             <group eventID="-1" id="-1">
-                <die comment="false" x="74" y="621">
+                <die comment="false" x="74" y="696">
                     <ACTOR eid="this" id="0"/>
                 </die>
-                <if comment="false" x="74" y="648">
+                <if comment="false" x="74" y="723">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="85" y="678">
+                        <play-sound4 comment="false" x="85" y="753">
                             <int id="0" val="0"/>
                             <SOUND eid="42" id="1"/>
                         </play-sound4>
@@ -128,9 +148,9 @@
                         <int id="1" val="Tiles"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="74" y="717">
+                <else-if comment="false" x="74" y="792">
                     <group eventID="-1" id="-1">
-                        <play-sound4 comment="false" x="85" y="747">
+                        <play-sound4 comment="false" x="85" y="822">
                             <int id="0" val="0"/>
                             <SOUND eid="39" id="1"/>
                         </play-sound4>

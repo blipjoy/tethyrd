@@ -11,6 +11,7 @@
         <snippets>
             <s enabled="true" id="9">
                 <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -147,10 +148,14 @@
         </snippets>
     </actor>
     <music desc="" id="52" loop="true" name="Plug In Gun" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music desc="" id="53" loop="true" name="Punchy" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <sprite atlasID="0" default="0" desc="" height="8" id="10" name="rope" shared="false" width="16">
         <anim across="1" atlasID="-1" down="1" durations="100" height="8" id="0" loop="true" name="Cord" numframes="1" originx="8" originy="4" width="16"/>
         <anim across="1" atlasID="-1" down="1" durations="100" height="20" id="1" loop="true" name="Plug" numframes="1" originx="10" originy="10" width="20">
             <poly data="4,0,0,10,0,10,20,0,20" density="0.1" fric="0.2" gid="-1000" id="0" name="Plug" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" atlasID="-1" down="1" durations="100" height="16" id="2" loop="true" name="Plugged" numframes="1" originx="8" originy="8" width="16">
+            <circle data="8,0,0" density="0.1" fric="0.2" gid="-1000" id="0" name="Circle" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <custom-block blocktag="custom-12" blocktype="ACTION" code="scripts.Design_6_6_JointBlocks.SetJointArgument(~,~,~);" desc="" global="true" gui="set argument %0 to %1 for joint %2" id="12" message="SetJointArgument" name="SetJointArgument" oid="-1" return="VOID" shared="false" snippetID="6">

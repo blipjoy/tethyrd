@@ -57,6 +57,10 @@
                             <int id="1" val="attached"/>
                             <false comment="false" id="2" x="0" y="0"/>
                         </actor-set-prop>
+                        <setanim comment="false" x="79" y="427">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Plug"/>
+                        </setanim>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
                         <actor-get-prop comment="false" id="0" x="0" y="0">
@@ -73,26 +77,21 @@
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="56" y="480">
+        <collide comment="false" x="56" y="537">
             <group eventID="-1" id="-1">
-                <set-val-8-1 comment="false" x="67" y="505">
+                <set-val-8-1 comment="false" x="67" y="562">
                     <collision-actorAB comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                     </collision-actorAB>
                 </set-val-8-1>
-                <if comment="false" x="67" y="545">
+                <if comment="false" x="67" y="602">
                     <group eventID="-1" id="-1">
-                        <set-val-8-2 comment="false" x="78" y="603">
+                        <set-val-8-2 comment="false" x="78" y="660">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-8-2>
-                        <custom-13 comment="false" x="78" y="628">
+                        <custom-13 comment="false" x="78" y="685">
                             <ACTOR eid="this" id="0"/>
-                            <neg comment="false" id="1" x="0" y="0">
-                                <get-wh comment="false" id="0" x="0" y="0">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="2"/>
-                                </get-wh>
-                            </neg>
+                            <int id="1" val="0"/>
                             <int id="2" val="0"/>
                             <get-val-8-1 comment="false" id="3" x="0" y="0"/>
                             <int id="4" val="0"/>
@@ -102,7 +101,7 @@
                                 <int id="1" val="0"/>
                             </get-item>
                         </custom-13>
-                        <actor-set-prop comment="false" x="78" y="673">
+                        <actor-set-prop comment="false" x="78" y="717">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="joint"/>
                             <custom-11 comment="false" id="2" x="0" y="0">
@@ -112,7 +111,7 @@
                                 </get-item>
                             </custom-11>
                         </actor-set-prop>
-                        <actor-set-prop comment="false" x="78" y="710">
+                        <actor-set-prop comment="false" x="78" y="754">
                             <actor-get-prop comment="false" id="0" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
                                 <int id="1" val="parent"/>
@@ -120,7 +119,11 @@
                             <int id="1" val="attached"/>
                             <true comment="false" id="2" x="0" y="0"/>
                         </actor-set-prop>
-                        <play-sound4 comment="false" x="78" y="750">
+                        <setanim comment="false" x="78" y="794">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Plugged"/>
+                        </setanim>
+                        <play-sound4 comment="false" x="78" y="821">
                             <int id="0" val="0"/>
                             <SOUND eid="52" id="1"/>
                         </play-sound4>
@@ -156,5 +159,12 @@
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
-    <group id="-1"/>
+    <group id="-1">
+        <neg comment="false" x="640" y="513">
+            <get-wh comment="false" id="0" x="0" y="0">
+                <ACTOR eid="this" id="0"/>
+                <int id="1" val="2"/>
+            </get-wh>
+        </neg>
+    </group>
 </groups>
