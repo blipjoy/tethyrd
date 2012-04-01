@@ -5,6 +5,7 @@
             <r id="11"/>
             <r id="12"/>
             <r id="13"/>
+            <r id="14"/>
         </group>
         <group desc="" id="1" name="Lib" type="snippet">
             <r id="3"/>
@@ -50,6 +51,12 @@
         <cgroup g1="1" g2="3"/>
         <cgroup g1="4" g2="5"/>
         <cgroup g1="3" g2="3"/>
+        <cgroup g1="5" g2="4"/>
+        <cgroup g1="6" g2="1"/>
+        <cgroup g1="6" g2="7"/>
+        <cgroup g1="3" g2="0"/>
+        <cgroup g1="0" g2="7"/>
+        <cgroup g1="1" g2="7"/>
     </cgroups>
     <input>
         <key id="0" keyname="W" name="up" vk="87"/>
