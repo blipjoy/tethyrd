@@ -20,7 +20,7 @@
                     <ACTOR eid="this" id="0"/>
                     <randint comment="false" id="1" x="0" y="0">
                         <int id="0" val="0"/>
-                        <int id="1" val="360"/>
+                        <int id="1" val="359"/>
                     </randint>
                     <randint comment="false" id="2" x="0" y="0">
                         <int id="0" val="5"/>
@@ -31,15 +31,36 @@
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="60" y="150">
+        <step comment="false" x="61" y="194">
             <group eventID="-1" id="-1"/>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="60" y="260">
+        <collide comment="false" x="60" y="264">
             <group eventID="-1" id="-1">
-                <if comment="false" x="71" y="285">
-                    <group eventID="-1" id="-1"/>
+                <if comment="false" x="71" y="289">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="82" y="327">
+                            <group eventID="-1" id="-1">
+                                <incdec comment="false" x="93" y="357">
+                                    <int id="0" val="2"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="1"/>
+                                </incdec>
+                            </group>
+                            <more comment="false" id="0" x="0" y="0">
+                                <get-val-2-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </more>
+                        </if>
+                        <else comment="false" x="82" y="396">
+                            <group eventID="-1" id="-1">
+                                <die comment="false" x="93" y="416">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                        </else>
+                    </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <collision-shape-group comment="false" id="0" x="0" y="0"/>
                         <pick-group comment="false" id="1" x="0" y="0">
@@ -47,26 +68,6 @@
                         </pick-group>
                     </eq>
                 </if>
-                <if comment="false" x="71" y="355">
-                    <group eventID="-1" id="-1">
-                        <incdec comment="false" x="82" y="385">
-                            <int id="0" val="2"/>
-                            <int id="1" val="1"/>
-                            <int id="2" val="1"/>
-                        </incdec>
-                    </group>
-                    <more comment="false" id="0" x="0" y="0">
-                        <get-val-2-2 comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="1"/>
-                    </more>
-                </if>
-                <else comment="false" x="71" y="424">
-                    <group eventID="-1" id="-1">
-                        <die comment="false" x="82" y="444">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
-                    </group>
-                </else>
             </group>
         </collide>
     </group>
@@ -79,15 +80,15 @@
                 <drawfill-rect comment="false" x="68" y="579">
                     <int id="0" val="1"/>
                     <int id="1" val="0"/>
-                    <int id="2" val="22"/>
+                    <int id="2" val="0"/>
                     <times comment="false" id="3" x="0" y="0">
                         <div comment="false" id="0" x="0" y="0">
                             <get-val-2-2 comment="false" id="0" x="0" y="0"/>
                             <int id="1" val="3"/>
                         </div>
-                        <int id="1" val="20"/>
+                        <int id="1" val="256"/>
                     </times>
-                    <int id="4" val="2"/>
+                    <int id="4" val="16"/>
                 </drawfill-rect>
             </group>
         </draw>

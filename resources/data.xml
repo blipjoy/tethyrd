@@ -4,7 +4,7 @@
     <custom-block blocktag="custom-22" blocktype="ACTION" code="sayToScene(&quot;Joint Blocks&quot;, &quot;&quot;);" desc="" global="false" gui="Missing" id="22" message="" name="" oid="-1" return="VOID" shared="false" snippetID="6"/>
     <sprite atlasID="0" default="0" desc="" height="32" id="30" name="Bullet" shared="false" width="32">
         <anim across="1" atlasID="-1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,0,8,32,8,32,24,0,24" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="6" id="29" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Bullet" oid="-1" pausable="true" rest="0.0" shared="false" sprite="30" static="false" touchable="true">
@@ -61,12 +61,15 @@
     </custom-block>
     <sprite atlasID="0" default="0" desc="" height="256" id="28" name="Enemy_1" shared="false" width="256">
         <anim across="4" atlasID="-1" down="1" durations="100,100,100,100" height="256" id="0" loop="true" name="Animation 0" numframes="4" originx="128" originy="128" width="1024">
-            <poly data="4,30,80,225,80,225,230,30,230" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+            <poly data="4,90,80,170,80,170,162,90,162" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="3" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Enemy_1" oid="-1" pausable="true" rest="0.0" shared="false" sprite="28" static="false" touchable="true">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" fixedrot="false" fric="0.2" gid="7" id="27" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Enemy_1" oid="-1" pausable="true" rest="0.0" shared="false" sprite="28" static="false" touchable="true">
         <snippets>
             <s enabled="true" id="2">
+                <prop id="1" list="0" val="0"/>
+                <prop id="2" list="0" val="0"/>
+                <prop id="3" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>

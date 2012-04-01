@@ -83,7 +83,7 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet class="scripts.Design_9_9_bulletmovment" desc="" description="" design="true" drawOrder="0" id="9" language="" name="bullet_movment" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+    <snippet class="scripts.Design_9_9_bulletmovment" desc="" description="" design="true" drawOrder="0" id="9" language="" name="Bullet Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
         <blocks/>
         <events/>

@@ -55,7 +55,7 @@
                     <eq comment="false" id="0" x="0" y="0">
                         <collision-shape-group comment="false" id="0" x="0" y="0"/>
                         <pick-group comment="false" id="1" x="0" y="0">
-                            <int id="0" val="6"/>
+                            <int id="0" val="7"/>
                         </pick-group>
                     </eq>
                 </if>
@@ -63,7 +63,7 @@
         </collide>
     </group>
     <group eventID="-1" id="3">
-        <draw comment="false" x="60" y="370">
+        <draw comment="false" x="63" y="406">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
