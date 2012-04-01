@@ -21,7 +21,7 @@
             <int id="0" val="Create_Enemy1"/>
         </receive-message>
     </group>
-    <group eventID="-1" id="8">
+    <group eventID="-1" id="4">
         <receiver-3-35 comment="false" x="64" y="346">
             <group eventID="-1" id="-1">
                 <periodic comment="false" x="75" y="376">
@@ -42,17 +42,5 @@
             <get-byobval-3-35-2 comment="false" id="2" x="0" y="0"/>
         </receiver-3-35>
     </group>
-    <group id="-1">
-        <get-byobval-3-33-0 comment="false" x="0" y="0"/>
-        <get-byobval-3-33-1 comment="false" x="0" y="0"/>
-        <get-byobval-3-33-2 comment="false" x="0" y="0"/>
-        <get-byobval-3-33-3 comment="false" x="0" y="0"/>
-        <get-byobval-3-34-0 comment="false" x="0" y="0"/>
-        <get-byobval-3-34-1 comment="false" x="0" y="0"/>
-        <get-byobval-3-34-2 comment="false" x="0" y="0"/>
-        <get-byobval-3-34-3 comment="false" x="0" y="0"/>
-        <get-byobval-3-35-0 comment="false" x="0" y="0"/>
-        <get-byobval-3-35-1 comment="false" x="0" y="0"/>
-        <get-byobval-3-35-2 comment="false" x="0" y="0"/>
-    </group>
+    <group id="-1"/>
 </groups>
