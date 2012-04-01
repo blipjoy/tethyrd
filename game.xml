@@ -72,8 +72,12 @@
         <poly id="28" name="Right" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.0"/>
         <poly id="31" name="Upper Right" pts="0.0,0.5#0.0,1.0#0.5,1.0#0.5,0.5"/>
         <poly id="30" name="Upper Left" pts="0.5,0.5#0.5,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="34" name="Outer Upper Left" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="35" name="Outer Upper Right" pts="0.0,0.0#0.0,0.5#0.5,0.5#0.5,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="32" name="Lower Left" pts="0.5,0.0#0.5,0.5#1.0,0.5#1.0,0.0"/>
         <poly id="33" name="Lower Right" pts="0.0,0.0#0.0,0.5#0.5,0.5#0.5,0.0"/>
+        <poly id="36" name="Outer Lower Left" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5#0.5,0.5#0.5,0.0"/>
+        <poly id="37" name="Outer Lower Right" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0#0.5,0.0#0.5,0.5"/>
     </collisions>
     <atlases>
         <atlas dirty="true" id="0" members="2,5,9,20,27,29,32,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
