@@ -1,35 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="-1" id="0">
-        <init comment="false" x="60" y="40">
+        <init comment="false" x="56" y="31">
             <group eventID="-1" id="-1">
-                <ignore-screen-tolerance comment="false" x="71" y="65">
+                <ignore-screen-tolerance comment="false" x="67" y="56">
                     <ACTOR eid="this" id="0"/>
                 </ignore-screen-tolerance>
+                <actor-set-prop comment="false" x="67" y="83">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="joint"/>
+                    <false comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
             </group>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="58" y="125">
+        <step comment="false" x="57" y="145">
             <group eventID="-1" id="-1">
-                <if comment="false" x="69" y="150">
+                <if comment="false" x="68" y="170">
                     <group eventID="-1" id="-1">
-                        <set-val-8-3 comment="false" x="80" y="183">
+                        <set-val-8-3 comment="false" x="79" y="208">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-8-3>
-                        <dolater comment="false" x="80" y="208">
+                        <dolater comment="false" x="79" y="233">
                             <group eventID="-1" id="-1">
-                                <set-val-8-2 comment="false" x="91" y="235">
-                                    <false comment="false" id="0" x="0" y="0"/>
-                                </set-val-8-2>
-                                <set-val-8-3 comment="false" x="91" y="260">
+                                <set-val-8-3 comment="false" x="90" y="260">
                                     <false comment="false" id="0" x="0" y="0"/>
                                 </set-val-8-3>
+                                <set-val-8-2 comment="false" x="90" y="285">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-8-2>
                             </group>
                             <int id="0" val="1"/>
                             <ACTOR eid="this" id="2"/>
                         </dolater>
-                        <custom-15 comment="false" x="80" y="297">
+                        <custom-15 comment="false" x="79" y="322">
                             <actor-get-prop comment="false" id="0" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
                                 <int id="1" val="joint"/>
@@ -39,29 +44,48 @@
                                 <int id="1" val="0"/>
                             </get-item>
                         </custom-15>
+                        <actor-set-prop comment="false" x="79" y="355">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="joint"/>
+                            <false comment="false" id="2" x="0" y="0"/>
+                        </actor-set-prop>
+                        <actor-set-prop comment="false" x="79" y="387">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="parent"/>
+                            </actor-get-prop>
+                            <int id="1" val="attached"/>
+                            <false comment="false" id="2" x="0" y="0"/>
+                        </actor-set-prop>
                     </group>
-                    <keystate comment="false" id="0" x="0" y="0">
-                        <int id="0" val="1"/>
-                        <CONTROL eid="8" id="1"/>
-                    </keystate>
+                    <and comment="false" id="0" x="0" y="0">
+                        <actor-get-prop comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="joint"/>
+                        </actor-get-prop>
+                        <keystate comment="false" id="1" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <CONTROL eid="8" id="1"/>
+                        </keystate>
+                    </and>
                 </if>
             </group>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="45" y="386">
+        <collide comment="false" x="53" y="482">
             <group eventID="-1" id="-1">
-                <set-val-8-1 comment="false" x="56" y="411">
+                <set-val-8-1 comment="false" x="64" y="507">
                     <collision-actorAB comment="false" id="0" x="0" y="0">
                         <int id="0" val="0"/>
                     </collision-actorAB>
                 </set-val-8-1>
-                <if comment="false" x="56" y="451">
+                <if comment="false" x="64" y="547">
                     <group eventID="-1" id="-1">
-                        <set-val-8-2 comment="false" x="67" y="509">
+                        <set-val-8-2 comment="false" x="75" y="605">
                             <true comment="false" id="0" x="0" y="0"/>
                         </set-val-8-2>
-                        <custom-13 comment="false" x="67" y="534">
+                        <custom-13 comment="false" x="75" y="630">
                             <ACTOR eid="this" id="0"/>
                             <neg comment="false" id="1" x="0" y="0">
                                 <get-wh comment="false" id="0" x="0" y="0">
@@ -78,7 +102,7 @@
                                 <int id="1" val="0"/>
                             </get-item>
                         </custom-13>
-                        <actor-set-prop comment="false" x="67" y="579">
+                        <actor-set-prop comment="false" x="75" y="675">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="joint"/>
                             <custom-11 comment="false" id="2" x="0" y="0">
@@ -87,6 +111,14 @@
                                     <int id="1" val="0"/>
                                 </get-item>
                             </custom-11>
+                        </actor-set-prop>
+                        <actor-set-prop comment="false" x="75" y="712">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="parent"/>
+                            </actor-get-prop>
+                            <int id="1" val="attached"/>
+                            <true comment="false" id="2" x="0" y="0"/>
                         </actor-set-prop>
                     </group>
                     <and comment="false" id="0" x="0" y="0">
@@ -116,7 +148,7 @@
         </collide>
     </group>
     <group eventID="-1" id="3">
-        <draw comment="false" x="319" y="19">
+        <draw comment="false" x="455" y="31">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>

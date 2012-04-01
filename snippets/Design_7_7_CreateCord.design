@@ -130,6 +130,11 @@
                     <int id="1" val="attachable"/>
                     <true comment="false" id="2" x="0" y="0"/>
                 </actor-set-prop>
+                <actor-set-prop comment="false" x="72" y="641">
+                    <get-val-7-10 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="parent"/>
+                    <get-byobval-7-17-0 comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
             </group>
             <get-byobval-7-17-0 comment="false" id="0" x="0" y="0"/>
         </receiver-1-17>

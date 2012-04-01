@@ -73,6 +73,7 @@
         <actor default="" desc="" dropdown="" fullname="hit_actor" hidden="false" id="1" name="_hitactor" order="1"/>
         <boolean default="false" desc="" dropdown="" fullname="attached" hidden="false" id="2" name="_attached" order="2"/>
         <boolean default="false" desc="" dropdown="" fullname="detaching" hidden="false" id="3" name="_detaching" order="3"/>
+        <actor default="" desc="" dropdown="" fullname="actor" hidden="false" id="4" name="_actor" order="4"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks>
             <receiver blockID="33" id="1"/>
