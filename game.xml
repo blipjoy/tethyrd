@@ -8,6 +8,7 @@
         <group desc="Bullets for the gun" id="6" name="Bullets"/>
     </groups>
     <cgroups>
+<<<<<<< Updated upstream
         <cgroup g1="1" g2="0"/>
         <cgroup g1="1" g2="4"/>
         <cgroup g1="6" g2="3"/>
@@ -15,6 +16,7 @@
         <cgroup g1="3" g2="0"/>
         <cgroup g1="3" g2="4"/>
         <cgroup g1="5" g2="4"/>
+        <cgroup g1="1" g2="3"/>
         <cgroup g1="0" g2="0"/>
     </cgroups>
     <input>

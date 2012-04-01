@@ -2,7 +2,11 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
-            <group eventID="-1" id="-1"/>
+            <group eventID="-1" id="-1">
+                <ignore-screen-tolerance comment="false" x="71" y="65">
+                    <ACTOR eid="this" id="0"/>
+                </ignore-screen-tolerance>
+            </group>
         </init>
     </group>
     <group eventID="-1" id="1">
@@ -112,15 +116,9 @@
         </collide>
     </group>
     <group eventID="-1" id="3">
-        <draw comment="false" x="215" y="39">
+        <draw comment="false" x="319" y="19">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
-    <group id="-1">
-        <and comment="false" x="436" y="80">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </and>
-        <get-val-8-2 comment="false" x="346" y="111"/>
-    </group>
+    <group id="-1"/>
 </groups>

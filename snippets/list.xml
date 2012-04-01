@@ -63,6 +63,13 @@
         <actor default="" desc="" dropdown="" fullname="Cord 0" hidden="false" id="1" name="_Cord0" order="0"/>
         <actor default="" desc="" dropdown="" fullname="Cord 1" hidden="false" id="2" name="_Cord1" order="1"/>
         <actor default="" desc="" dropdown="" fullname="Cord 2" hidden="false" id="3" name="_Cord2" order="2"/>
+        <number default="0" desc="" dropdown="" fullname="i" hidden="false" id="4" name="_i" order="3"/>
+        <actor default="" desc="" dropdown="" fullname="prev_actor" hidden="false" id="5" name="_prevactor" order="4"/>
+        <number default="0" desc="" dropdown="" fullname="x" hidden="false" id="6" name="_x" order="5"/>
+        <number default="0" desc="" dropdown="" fullname="y" hidden="false" id="7" name="_y" order="6"/>
+        <number default="0" desc="" dropdown="" fullname="ix" hidden="false" id="8" name="_ix" order="7"/>
+        <number default="0" desc="" dropdown="" fullname="iy" hidden="false" id="9" name="_iy" order="8"/>
+        <actor default="" desc="" dropdown="" fullname="current_actor" hidden="false" id="10" name="_currentactor" order="9"/>
         <blocks>
             <receiver blockID="17" id="1"/>
         </blocks>

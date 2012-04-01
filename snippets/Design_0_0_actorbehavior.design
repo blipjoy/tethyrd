@@ -198,20 +198,20 @@
         </step>
     </group>
     <group eventID="-1" id="2">
-        <collide comment="false" x="49" y="1103">
+        <collide comment="false" x="50" y="930">
             <group eventID="-1" id="-1">
-                <if comment="false" x="60" y="1128">
+                <if comment="true" x="61" y="955">
                     <group eventID="-1" id="-1">
-                        <scene-reload-new comment="false" x="71" y="1166">
+                        <scene-reload-new comment="true" x="72" y="993">
                             <int id="0" val="0"/>
                             <int id="1" val="0.3"/>
                             <int id="2" val="0"/>
                             <int id="3" val="0.3"/>
                         </scene-reload-new>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <collision-shape-group-me comment="false" id="0" x="0" y="0"/>
-                        <pick-group comment="false" id="1" x="0" y="0">
+                    <eq comment="true" id="0" x="0" y="0">
+                        <collision-shape-group-me comment="true" id="0" x="0" y="0"/>
+                        <pick-group comment="true" id="1" x="0" y="0">
                             <int id="0" val="3"/>
                         </pick-group>
                     </eq>
@@ -224,10 +224,5 @@
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
-    <group id="-1">
-        <or comment="false" x="899" y="799">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </or>
-    </group>
+    <group id="-1"/>
 </groups>
