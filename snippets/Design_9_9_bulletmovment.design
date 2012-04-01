@@ -3,43 +3,60 @@
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
             <group eventID="-1" id="-1">
-                <setvel comment="false" x="71" y="65">
-                    <ACTOR eid="this" id="0"/>
-                    <atan2 comment="false" id="1" x="0" y="0">
-                        <minus comment="false" id="0" x="0" y="0">
-                            <mousexy comment="false" id="0" x="0" y="0">
-                                <int id="0" val="0"/>
-                                <int id="1" val="1"/>
-                            </mousexy>
-                            <get-xy comment="false" id="1" x="0" y="0">
-                                <ACTOR eid="this" id="0"/>
-                                <int id="1" val="3"/>
-                            </get-xy>
-                        </minus>
-                        <to-degreesradians comment="false" id="1" x="0" y="0">
-                            <int id="0" val="0"/>
+                <set-val-9-1 comment="false" x="71" y="65">
+                    <to-degreesradians comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <atan2 comment="false" id="1" x="0" y="0">
+                            <minus comment="false" id="0" x="0" y="0">
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <mousexy comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <int id="1" val="1"/>
+                                    </mousexy>
+                                    <screen-xy comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="1"/>
+                                    </screen-xy>
+                                </plus>
+                                <get-xy comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="3"/>
+                                </get-xy>
+                            </minus>
                             <minus comment="false" id="1" x="0" y="0">
-                                <mousexy comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="0"/>
-                                    <int id="1" val="0"/>
-                                </mousexy>
+                                <plus comment="false" id="0" x="0" y="0">
+                                    <mousexy comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                        <int id="1" val="0"/>
+                                    </mousexy>
+                                    <screen-xy comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="0"/>
+                                    </screen-xy>
+                                </plus>
                                 <get-xy comment="false" id="1" x="0" y="0">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="2"/>
                                 </get-xy>
                             </minus>
-                        </to-degreesradians>
-                    </atan2>
-                    <int id="2" val="30"/>
+                        </atan2>
+                    </to-degreesradians>
+                </set-val-9-1>
+                <setvel comment="false" x="71" y="126">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
+                    <int id="2" val="60"/>
                 </setvel>
-                <kill-leave-screen comment="false" x="71" y="128">
+                <setangle comment="false" x="71" y="158">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-9-1 comment="false" id="1" x="0" y="0"/>
+                </setangle>
+                <kill-leave-screen comment="false" x="71" y="190">
                     <ACTOR eid="this" id="0"/>
                 </kill-leave-screen>
             </group>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="64" y="182">
+        <step comment="false" x="64" y="495">
             <group eventID="-1" id="-1"/>
         </step>
     </group>

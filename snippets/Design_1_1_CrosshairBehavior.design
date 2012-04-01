@@ -19,24 +19,34 @@
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="0"/>
                     <minus comment="false" id="2" x="0" y="0">
-                        <mousexy comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <int id="1" val="0"/>
-                        </mousexy>
+                        <plus comment="false" id="0" x="0" y="0">
+                            <mousexy comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="0"/>
+                            </mousexy>
+                            <screen-xy comment="false" id="1" x="0" y="0">
+                                <int id="0" val="0"/>
+                            </screen-xy>
+                        </plus>
                         <get-wh comment="false" id="1" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="2"/>
                         </get-wh>
                     </minus>
                 </set-xy>
-                <set-xy comment="false" x="69" y="213">
+                <set-xy comment="false" x="69" y="218">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="1"/>
                     <minus comment="false" id="2" x="0" y="0">
-                        <mousexy comment="false" id="0" x="0" y="0">
-                            <int id="0" val="0"/>
-                            <int id="1" val="1"/>
-                        </mousexy>
+                        <plus comment="false" id="0" x="0" y="0">
+                            <mousexy comment="false" id="0" x="0" y="0">
+                                <int id="0" val="0"/>
+                                <int id="1" val="1"/>
+                            </mousexy>
+                            <screen-xy comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1"/>
+                            </screen-xy>
+                        </plus>
                         <get-wh comment="false" id="1" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="3"/>

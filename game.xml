@@ -9,13 +9,14 @@
         <group desc="" id="7" name="Enemies"/>
     </groups>
     <cgroups>
+        <cgroup g1="7" g2="1"/>
         <cgroup g1="7" g2="0"/>
         <cgroup g1="7" g2="6"/>
-        <cgroup g1="7" g2="1"/>
-        <cgroup g1="0" g2="0"/>
-        <cgroup g1="5" g2="4"/>
+        <cgroup g1="1" g2="0"/>
         <cgroup g1="1" g2="3"/>
-        <cgroup g1="3" g2="0"/>
+        <cgroup g1="5" g2="4"/>
+        <cgroup g1="0" g2="0"/>
+        <cgroup g1="0" g2="3"/>
         <cgroup g1="3" g2="3"/>
     </cgroups>
     <input>
@@ -53,6 +54,14 @@
         <poly id="18" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
         <poly id="21" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="27" name="Upper" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="26" name="Lower" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="29" name="Left" pts="0.5,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="28" name="Right" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.0"/>
+        <poly id="31" name="Upper Right" pts="0.0,0.5#0.0,1.0#0.5,1.0#0.5,0.5"/>
+        <poly id="30" name="Upper Left" pts="0.5,0.5#0.5,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="32" name="Lower Left" pts="0.5,0.0#0.5,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="33" name="Lower Right" pts="0.0,0.0#0.0,0.5#0.5,0.5#0.5,0.0"/>
     </collisions>
     <atlases>
         <atlas dirty="true" id="0" members="2,5,9,20,27,29,32,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>

@@ -120,5 +120,7 @@
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
-    <group id="-1"/>
+    <group id="-1">
+        <get-byobval-8-33-0 comment="false" x="0" y="0"/>
+    </group>
 </groups>

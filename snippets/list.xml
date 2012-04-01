@@ -74,11 +74,14 @@
         <boolean default="false" desc="" dropdown="" fullname="attached" hidden="false" id="2" name="_attached" order="2"/>
         <boolean default="false" desc="" dropdown="" fullname="detaching" hidden="false" id="3" name="_detaching" order="3"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
-        <blocks/>
+        <blocks>
+            <receiver blockID="33" id="1"/>
+        </blocks>
         <events/>
     </snippet>
     <snippet class="scripts.Design_9_9_bulletmovment" desc="" description="" design="true" drawOrder="0" id="9" language="" name="Bullet Movement" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
-        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
+        <number default="0" desc="" dropdown="" fullname="direction" hidden="false" id="1" name="_direction" order="1"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>
