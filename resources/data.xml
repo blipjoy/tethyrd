@@ -34,6 +34,11 @@
     <custom-block blocktag="custom-17" blocktype="ACTION" code="sayToScene(&quot;Create Cord&quot;, &quot;CreateCord&quot;, ~);" desc="create a cord, and attach it to an actor" global="false" gui="create a cord for %0" id="17" message="CreateCord" name="CreateCord" oid="-1" return="VOID" shared="false" snippetID="7">
         <blank name="actor" order="0" type="ACTOR"/>
     </custom-block>
+    <custom-block blocktag="custom-35" blocktype="ACTION" code="sayToScene(&quot;Enemy Spawn&quot;, &quot;CreateEnemySpawner&quot;, ~,~,~);" desc="Create an enemy spawner" global="false" gui="create an enemy at ( x: %0 y: %1 ) every %2 seconds" id="35" message="CreateEnemySpawner" name="CreateEnemySpawner" oid="-1" return="VOID" shared="false" snippetID="3">
+        <blank name="x" order="0" type="NUMBER"/>
+        <blank name="y" order="1" type="NUMBER"/>
+        <blank name="duration" order="2" type="NUMBER"/>
+    </custom-block>
     <custom-block blocktag="custom-14" blocktype="ACTION" code="scripts.Design_6_6_JointBlocks.CreateMouseJoint(~,~);" desc="" global="true" gui="create mouse joint for %0 [ this: %1 ]" id="14" message="CreateMouseJoint" name="CreateMouseJoint" oid="-1" return="VOID" shared="false" snippetID="6">
         <blank name="actor" order="0" type="ACTOR"/>
         <blank name="this" order="1" type="OBJECT"/>

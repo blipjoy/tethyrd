@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <game accelFramerate="0" adsPosition="0" aheight="480" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" default="1" defaultFramerate="60" desc="What if you lived in a world where all guns are required to be plugged into wall sockets? Now THAT would be a tactical shooter wouldn't it?" deviceOS="5.0" engine="0" format="1.0" gameid="-1" height="480" kit="false" lockURL="" mochi="" name="Tethyrd" ngID="" ngKey="" orientation="0" products="" projectType="web" scale="1.0" showAds="false" simulatorOS="5.0" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
-    <folders/>
+    <folders>
+        <group desc="" id="0" name="Levels" type="snippet">
+            <r id="11"/>
+            <r id="12"/>
+        </group>
+        <group desc="" id="1" name="Lib" type="snippet">
+            <r id="3"/>
+            <r id="4"/>
+            <r id="6"/>
+            <r id="7"/>
+        </group>
+    </folders>
     <packs/>
     <groups>
         <group desc="" id="4" name="Cords"/>

@@ -2,37 +2,57 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
-            <group eventID="-1" id="-1">
-                <periodic comment="false" x="71" y="65">
-                    <group eventID="-1" id="-1">
-                        <create-actor3 comment="false" x="82" y="92">
-                            <ACTORTYPE eid="27" id="0"/>
-                            <int id="1" val="600"/>
-                            <int id="2" val="150"/>
-                            <int id="3" val="0"/>
-                        </create-actor3>
-                    </group>
-                    <int id="0" val="0.5"/>
-                    <ACTOR eid="lastcreated" id="2"/>
-                </periodic>
-            </group>
+            <group eventID="-1" id="-1"/>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="60" y="350">
+        <step comment="false" x="61" y="271">
             <group eventID="-1" id="-1"/>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <draw comment="false" x="60" y="260">
+        <draw comment="false" x="56" y="195">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
     <group eventID="-1" id="3">
-        <receive-message comment="false" x="59" y="184">
+        <receive-message comment="false" x="57" y="120">
             <group eventID="-1" id="-1"/>
             <int id="0" val="Create_Enemy1"/>
         </receive-message>
     </group>
-    <group id="-1"/>
+    <group eventID="-1" id="8">
+        <receiver-3-35 comment="false" x="64" y="346">
+            <group eventID="-1" id="-1">
+                <periodic comment="false" x="75" y="376">
+                    <group eventID="-1" id="-1">
+                        <create-actor3 comment="false" x="86" y="408">
+                            <ACTORTYPE eid="27" id="0"/>
+                            <get-byobval-3-35-0 comment="false" id="1" x="0" y="0"/>
+                            <get-byobval-3-35-1 comment="false" id="2" x="0" y="0"/>
+                            <int id="3" val="2"/>
+                        </create-actor3>
+                    </group>
+                    <get-byobval-3-35-2 comment="false" id="0" x="0" y="0"/>
+                    <ACTOR eid="lastcreated" id="2"/>
+                </periodic>
+            </group>
+            <get-byobval-3-35-0 comment="false" id="0" x="0" y="0"/>
+            <get-byobval-3-35-1 comment="false" id="1" x="0" y="0"/>
+            <get-byobval-3-35-2 comment="false" id="2" x="0" y="0"/>
+        </receiver-3-35>
+    </group>
+    <group id="-1">
+        <get-byobval-3-33-0 comment="false" x="0" y="0"/>
+        <get-byobval-3-33-1 comment="false" x="0" y="0"/>
+        <get-byobval-3-33-2 comment="false" x="0" y="0"/>
+        <get-byobval-3-33-3 comment="false" x="0" y="0"/>
+        <get-byobval-3-34-0 comment="false" x="0" y="0"/>
+        <get-byobval-3-34-1 comment="false" x="0" y="0"/>
+        <get-byobval-3-34-2 comment="false" x="0" y="0"/>
+        <get-byobval-3-34-3 comment="false" x="0" y="0"/>
+        <get-byobval-3-35-0 comment="false" x="0" y="0"/>
+        <get-byobval-3-35-1 comment="false" x="0" y="0"/>
+        <get-byobval-3-35-2 comment="false" x="0" y="0"/>
+    </group>
 </groups>

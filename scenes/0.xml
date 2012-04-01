@@ -36,6 +36,7 @@
             <prop id="9" list="0" val="0"/>
             <prop id="10" list="0" val="-1"/>
         </s>
+        <s enabled="true" id="12"/>
     </snippets>
     <terrain/>
 </scene>
