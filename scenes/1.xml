@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="1024" id="1" name="Level 1" revision="" savecount="0" tiled="1" tileh="64" tilew="64" type="standard" width="2048">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="2" sx="1.0" sy="1.0" x="60" y="127" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="5" id="20" sx="1.0" sy="1.0" x="532" y="8" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="5" id="20" sx="1.0" sy="1.0" x="708" y="472" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="5" id="20" sx="1.0" sy="1.0" x="2021" y="533" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="2" id="5" sx="1.0" sy="1.0" x="290" y="227" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="3"/>
+        <s enabled="true" id="4">
+            <prop id="1" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="7">
+            <prop id="1" list="0" val="-1"/>
+            <prop id="2" list="0" val="-1"/>
+            <prop id="3" list="0" val="-1"/>
+            <prop id="4" list="0" val="0"/>
+            <prop id="5" list="0" val="-1"/>
+            <prop id="6" list="0" val="0"/>
+            <prop id="7" list="0" val="0"/>
+            <prop id="8" list="0" val="0"/>
+            <prop id="9" list="0" val="0"/>
+            <prop id="10" list="0" val="-1"/>
+        </s>
+    </snippets>
+    <terrain>
+        <p pts="14,1984.0,1024.0,256.0,1024.0,256.0,640.0,704.0,640.0,704.0,384.0,448.0,384.0,448.0,576.0,0.0,576.0,0.0,0.0,1984.0,0.0,1984.0,320.0,2048.0,320.0,2048.0,768.0,1984.0,768.0" x="0.0" y="0.0"/>
+    </terrain>
+</scene>
