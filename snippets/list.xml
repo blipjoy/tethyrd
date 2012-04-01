@@ -3,7 +3,6 @@
     <snippet class="scripts.Design_0_0_actorbehavior" desc="Player controls" description="Player controls" design="true" drawOrder="0" id="0" language="" name="Player Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
         <boolean default="false" desc="Player walking left or right" dropdown="" fullname="walking_x" hidden="false" id="1" name="_walkingx" order="1"/>
         <boolean default="false" desc="Player walking forward or back" dropdown="" fullname="walking_y" hidden="false" id="2" name="_walkingy" order="2"/>
-        <number default="0" desc="" dropdown="" fullname="direction" hidden="false" id="3" name="_direction" order="3"/>
         <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
@@ -19,6 +18,57 @@
         <events/>
     </snippet>
     <snippet class="scripts.Design_3_3_EnemyCreation" desc="" description="" design="true" drawOrder="0" id="3" language="" name="Enemy_Creation" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_4_4_Debug" desc="" description="" design="true" drawOrder="0" id="4" language="" name="Debug" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <boolean default="false" desc="" dropdown="" fullname="debug" hidden="false" id="1" name="_debug" order="0"/>
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_6_6_JointBlocks" desc="" description="" design="true" drawOrder="0" id="6" language="" name="Joint Blocks" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <boolean default="false" desc="" dropdown="" fullname="Grabbed" hidden="true" id="1" name="_Grabbed" order="0"/>
+        <number default="0.0" desc="" dropdown="" fullname="X" hidden="true" id="2" name="_X" order="1"/>
+        <number default="0.0" desc="" dropdown="" fullname="Y" hidden="true" id="3" name="_Y" order="2"/>
+        <blocks>
+            <receiver blockID="679" id="1"/>
+            <receiver blockID="681" id="2"/>
+            <receiver blockID="682" id="3"/>
+            <ureceiver blockID="0" id="4"/>
+            <receiver blockID="13" id="5"/>
+            <receiver blockID="14" id="6"/>
+            <ureceiver blockID="0" id="7"/>
+            <receiver blockID="15" id="8"/>
+            <receiver blockID="709" id="9"/>
+            <receiver blockID="16" id="10"/>
+            <receiver blockID="711" id="11"/>
+            <ureceiver blockID="0" id="12"/>
+            <ureceiver blockID="0" id="13"/>
+            <receiver blockID="713" id="14"/>
+            <receiver blockID="11" id="15"/>
+            <receiver blockID="23" id="17"/>
+            <receiver blockID="12" id="16"/>
+            <receiver blockID="25" id="19"/>
+            <receiver blockID="24" id="18"/>
+            <receiver blockID="27" id="21"/>
+            <ureceiver blockID="0" id="20"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_7_7_CreateCord" desc="" description="" design="true" drawOrder="0" id="7" language="" name="Create Cord" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <actor default="" desc="" dropdown="" fullname="Cord 0" hidden="false" id="1" name="_Cord0" order="0"/>
+        <actor default="" desc="" dropdown="" fullname="Cord 1" hidden="false" id="2" name="_Cord1" order="1"/>
+        <actor default="" desc="" dropdown="" fullname="Cord 2" hidden="false" id="3" name="_Cord2" order="2"/>
+        <blocks>
+            <receiver blockID="17" id="1"/>
+        </blocks>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_8_8_CordBehavior" desc="" description="" design="true" drawOrder="0" id="8" language="" name="Cord Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="" desc="" dropdown="" fullname="hit_actor" hidden="false" id="1" name="_hitactor" order="1"/>
+        <boolean default="false" desc="" dropdown="" fullname="attached" hidden="false" id="2" name="_attached" order="2"/>
+        <boolean default="false" desc="" dropdown="" fullname="detaching" hidden="false" id="3" name="_detaching" order="3"/>
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
         <blocks/>
         <events/>
     </snippet>

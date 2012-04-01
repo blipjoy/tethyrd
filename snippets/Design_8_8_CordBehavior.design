@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="58" y="125">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="69" y="150">
+                    <group eventID="-1" id="-1">
+                        <set-val-8-3 comment="false" x="80" y="183">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-8-3>
+                        <dolater comment="false" x="80" y="208">
+                            <group eventID="-1" id="-1">
+                                <set-val-8-2 comment="false" x="91" y="235">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-8-2>
+                                <set-val-8-3 comment="false" x="91" y="260">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-val-8-3>
+                            </group>
+                            <int id="0" val="1"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                        <custom-15 comment="false" x="80" y="297">
+                            <actor-get-prop comment="false" id="0" x="0" y="0">
+                                <ACTOR eid="this" id="0"/>
+                                <int id="1" val="joint"/>
+                            </actor-get-prop>
+                            <get-item comment="false" id="1" x="0" y="0">
+                                <int id="0" val="[this]"/>
+                                <int id="1" val="0"/>
+                            </get-item>
+                        </custom-15>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="8" id="1"/>
+                    </keystate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <collide comment="false" x="45" y="386">
+            <group eventID="-1" id="-1">
+                <set-val-8-1 comment="false" x="56" y="411">
+                    <collision-actorAB comment="false" id="0" x="0" y="0">
+                        <int id="0" val="0"/>
+                    </collision-actorAB>
+                </set-val-8-1>
+                <if comment="false" x="56" y="451">
+                    <group eventID="-1" id="-1">
+                        <set-val-8-2 comment="false" x="67" y="509">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-8-2>
+                        <custom-13 comment="false" x="67" y="534">
+                            <ACTOR eid="this" id="0"/>
+                            <neg comment="false" id="1" x="0" y="0">
+                                <get-wh comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="2"/>
+                                </get-wh>
+                            </neg>
+                            <int id="2" val="0"/>
+                            <get-val-8-1 comment="false" id="3" x="0" y="0"/>
+                            <int id="4" val="0"/>
+                            <int id="5" val="0"/>
+                            <get-item comment="false" id="6" x="0" y="0">
+                                <int id="0" val="[this]"/>
+                                <int id="1" val="0"/>
+                            </get-item>
+                        </custom-13>
+                        <actor-set-prop comment="false" x="67" y="579">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="joint"/>
+                            <custom-11 comment="false" id="2" x="0" y="0">
+                                <get-item comment="false" id="0" x="0" y="0">
+                                    <int id="0" val="[this]"/>
+                                    <int id="1" val="0"/>
+                                </get-item>
+                            </custom-11>
+                        </actor-set-prop>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-8-2 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <and comment="false" id="1" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-8-3 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <and comment="false" id="1" x="0" y="0">
+                                <eq comment="false" id="0" x="0" y="0">
+                                    <getgroup comment="false" id="0" x="0" y="0">
+                                        <get-val-8-1 comment="false" id="0" x="0" y="0"/>
+                                    </getgroup>
+                                    <int id="1" val="Sockets"/>
+                                </eq>
+                                <actor-get-prop comment="false" id="1" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="attachable"/>
+                                </actor-get-prop>
+                            </and>
+                        </and>
+                    </and>
+                </if>
+            </group>
+        </collide>
+    </group>
+    <group eventID="-1" id="3">
+        <draw comment="false" x="215" y="39">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1">
+        <and comment="false" x="436" y="80">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </and>
+        <get-val-8-2 comment="false" x="346" y="111"/>
+    </group>
+</groups>

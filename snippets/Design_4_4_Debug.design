@@ -2,20 +2,43 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
-            <group eventID="-1" id="-1">
-                <enable-tile-wire comment="false" x="71" y="65">
-                    <color b="0" g="200" id="0" r="255"/>
-                </enable-tile-wire>
-            </group>
+            <group eventID="-1" id="-1"/>
         </init>
     </group>
     <group eventID="-1" id="1">
         <step comment="false" x="60" y="150">
-            <group eventID="-1" id="-1"/>
+            <group eventID="-1" id="-1">
+                <if comment="false" x="71" y="175">
+                    <group eventID="-1" id="-1">
+                        <set-val-4-1 comment="false" x="82" y="208">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-4-1 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                        </set-val-4-1>
+                        <if comment="false" x="82" y="238">
+                            <group eventID="-1" id="-1">
+                                <enable-tile-wire comment="false" x="93" y="263">
+                                    <color b="0" g="200" id="0" r="255"/>
+                                </enable-tile-wire>
+                            </group>
+                            <get-val-4-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <else comment="false" x="82" y="302">
+                            <group eventID="-1" id="-1">
+                                <disable-tile-wire comment="false" x="93" y="322"/>
+                            </group>
+                        </else>
+                    </group>
+                    <keystate comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <CONTROL eid="7" id="1"/>
+                    </keystate>
+                </if>
+            </group>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <draw comment="false" x="60" y="260">
+        <draw comment="false" x="281" y="44">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>

@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" aheight="384" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" default="0" defaultFramerate="60" desc="What if you lived in a world where all guns are required to be plugged into wall sockets? Now THAT would be a tactical shooter wouldn't it?" deviceOS="null" engine="0" format="1.0" gameid="-1" height="384" kit="false" lockURL="" mochi="" name="Tethyrd" ngID="" ngKey="" orientation="0" products="" projectType="web" scale="1.0" showAds="false" simulatorOS="null" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
+<game accelFramerate="0" adsPosition="0" aheight="384" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" default="0" defaultFramerate="60" desc="What if you lived in a world where all guns are required to be plugged into wall sockets? Now THAT would be a tactical shooter wouldn't it?" deviceOS="5.0" engine="0" format="1.0" gameid="-1" height="384" kit="false" lockURL="" mochi="" name="Tethyrd" ngID="" ngKey="" orientation="0" products="" projectType="web" scale="1.0" showAds="false" simulatorOS="5.0" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
     <folders/>
     <packs/>
-    <groups/>
+    <groups>
+        <group desc="" id="4" name="Cords"/>
+        <group desc="" id="5" name="Sockets"/>
+    </groups>
     <cgroups>
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="1" g2="0"/>
+        <cgroup g1="5" g2="4"/>
+        <cgroup g1="4" g2="3"/>
+        <cgroup g1="4" g2="1"/>
         <cgroup g1="3" g2="3"/>
         <cgroup g1="3" g2="0"/>
+        <cgroup g1="1" g2="0"/>
+        <cgroup g1="0" g2="0"/>
     </cgroups>
     <input>
         <key id="0" keyname="W" name="up" vk="87"/>
         <key id="1" keyname="S" name="down" vk="83"/>
         <key id="2" keyname="A" name="left" vk="65"/>
         <key id="3" keyname="D" name="right" vk="68"/>
-        <key id="4" keyname="Z" name="action1" vk="90"/>
-        <key id="5" keyname="X" name="action2" vk="88"/>
-        <key id="6" keyname="ENTER" name="enter" vk="10"/>
+        <key id="7" keyname="F3" name="F3" vk="114"/>
+        <key id="8" keyname="E" name="break" vk="69"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
     </attcats>
     <props/>
-    <attributes>
-        <bool cid="-1" id="1" name="player_moving_y" save="true" value="false"/>
-        <bool cid="-1" id="0" name="player_moving_x" save="true" value="false"/>
-    </attributes>
+    <attributes/>
     <collisions>
         <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
@@ -50,7 +52,7 @@
         <poly id="20" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="2,5,9,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="2,5,7,9,18,20,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>

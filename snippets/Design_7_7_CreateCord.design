@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1"/>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="604" y="26">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="460" y="23">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="-1" id="3">
+        <receiver-1-17 comment="false" x="60" y="119">
+            <group eventID="-1" id="-1">
+                <create-actor3 comment="false" x="71" y="149">
+                    <ACTORTYPE eid="9" id="0"/>
+                    <int id="1" val="20"/>
+                    <int id="2" val="20"/>
+                    <int id="3" val="2"/>
+                </create-actor3>
+                <set-val-7-1 comment="false" x="71" y="176">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-7-1>
+                <actor-set-prop comment="false" x="71" y="203">
+                    <get-val-7-1 comment="false" id="0" x="0" y="0"/>
+                    <int id="1" val="attachable"/>
+                    <true comment="false" id="2" x="0" y="0"/>
+                </actor-set-prop>
+                <create-actor3 comment="false" x="71" y="235">
+                    <ACTORTYPE eid="9" id="0"/>
+                    <int id="1" val="100"/>
+                    <int id="2" val="20"/>
+                    <int id="3" val="2"/>
+                </create-actor3>
+                <set-val-7-2 comment="false" x="71" y="262">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-7-2>
+                <create-actor3 comment="false" x="71" y="289">
+                    <ACTORTYPE eid="9" id="0"/>
+                    <int id="1" val="180"/>
+                    <int id="2" val="20"/>
+                    <int id="3" val="2"/>
+                </create-actor3>
+                <set-val-7-3 comment="false" x="71" y="316">
+                    <ACTOR eid="lastcreated" id="0"/>
+                </set-val-7-3>
+                <custom-13 comment="false" x="71" y="343">
+                    <ACTOR eid="var" id="0" vid="1"/>
+                    <get-wh comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="1"/>
+                        <int id="1" val="2"/>
+                    </get-wh>
+                    <int id="2" val="0"/>
+                    <ACTOR eid="var" id="3" vid="2"/>
+                    <minus comment="false" id="4" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                    </minus>
+                    <int id="5" val="0"/>
+                    <get-item comment="false" id="6" x="0" y="0">
+                        <int id="0" val="[this]"/>
+                        <int id="1" val="0"/>
+                    </get-item>
+                </custom-13>
+                <custom-12 comment="false" x="71" y="388">
+                    <int id="0" val="lowerAngle"/>
+                    <times comment="false" id="1" x="0" y="0">
+                        <int id="0" val="-0.9"/>
+                        <pi comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-12 comment="false" x="71" y="418">
+                    <int id="0" val="upperAngle"/>
+                    <times comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0.9"/>
+                        <pi comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-12 comment="false" x="71" y="448">
+                    <int id="0" val="enableLimit"/>
+                    <true comment="false" id="1" x="0" y="0"/>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-13 comment="false" x="71" y="478">
+                    <ACTOR eid="var" id="0" vid="2"/>
+                    <get-wh comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="2"/>
+                        <int id="1" val="2"/>
+                    </get-wh>
+                    <int id="2" val="0"/>
+                    <ACTOR eid="var" id="3" vid="3"/>
+                    <minus comment="false" id="4" x="0" y="0">
+                        <int id="0" val="0"/>
+                        <get-wh comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="2"/>
+                        </get-wh>
+                    </minus>
+                    <int id="5" val="0"/>
+                    <get-item comment="false" id="6" x="0" y="0">
+                        <int id="0" val="[this]"/>
+                        <int id="1" val="0"/>
+                    </get-item>
+                </custom-13>
+                <custom-12 comment="false" x="71" y="523">
+                    <int id="0" val="lowerAngle"/>
+                    <times comment="false" id="1" x="0" y="0">
+                        <int id="0" val="-0.9"/>
+                        <pi comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-12 comment="false" x="71" y="553">
+                    <int id="0" val="upperAngle"/>
+                    <times comment="false" id="1" x="0" y="0">
+                        <int id="0" val="0.9"/>
+                        <pi comment="false" id="1" x="0" y="0"/>
+                    </times>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-12 comment="false" x="71" y="583">
+                    <int id="0" val="enableLimit"/>
+                    <true comment="false" id="1" x="0" y="0"/>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+                <custom-13 comment="false" x="71" y="613">
+                    <ACTOR eid="var" id="0" vid="3"/>
+                    <get-wh comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="var" id="0" vid="3"/>
+                        <int id="1" val="2"/>
+                    </get-wh>
+                    <int id="2" val="0"/>
+                    <get-byobval-7-17-0 comment="false" id="3" x="0" y="0"/>
+                    <int id="4" val="0"/>
+                    <int id="5" val="0"/>
+                    <get-item comment="false" id="6" x="0" y="0">
+                        <int id="0" val="[this]"/>
+                        <int id="1" val="0"/>
+                    </get-item>
+                </custom-13>
+                <custom-12 comment="false" x="71" y="653">
+                    <int id="0" val="enableLimit"/>
+                    <false comment="false" id="1" x="0" y="0"/>
+                    <custom-11 comment="false" id="2" x="0" y="0">
+                        <get-item comment="false" id="0" x="0" y="0">
+                            <int id="0" val="[this]"/>
+                            <int id="1" val="0"/>
+                        </get-item>
+                    </custom-11>
+                </custom-12>
+            </group>
+            <get-byobval-7-17-0 comment="false" id="0" x="0" y="0"/>
+        </receiver-1-17>
+    </group>
+    <group id="-1"/>
+</groups>
