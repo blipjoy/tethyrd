@@ -64,6 +64,7 @@
         <blank name="y2" order="5" type="NUMBER"/>
         <blank name="this" order="6" type="OBJECT"/>
     </custom-block>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="57" name="Credits Screen Background" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <sprite atlasID="0" default="0" desc="" height="64" id="6" name="Crosshair" shared="false" width="64">
         <anim across="1" atlasID="-1" down="1" durations="100" height="64" id="0" loop="true" name="Animation 0" numframes="1" originx="32" originy="32" width="64"/>
     </sprite>

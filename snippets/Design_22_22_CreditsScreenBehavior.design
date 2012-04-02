@@ -3,21 +3,13 @@
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
             <group eventID="-1" id="-1">
-                <stop-sounds comment="false" x="71" y="65"/>
-                <play-sound4 comment="false" x="71" y="85">
-                    <int id="0" val="1"/>
-                    <SOUND eid="53" id="1"/>
-                </play-sound4>
-            </group>
-        </init>
-    </group>
-    <group eventID="-1" id="1">
-        <step comment="false" x="60" y="150">
-            <group eventID="-1" id="-1">
-                <if comment="false" x="71" y="175">
+                <set-game-val-0 comment="false" x="71" y="65">
+                    <int id="0" val="5"/>
+                </set-game-val-0>
+                <if comment="false" x="71" y="85">
                     <group eventID="-1" id="-1">
-                        <scene-change-new comment="false" x="82" y="213">
-                            <SCENE eid="1" id="0"/>
+                        <scene-change-new comment="false" x="82" y="123">
+                            <SCENE eid="3" id="0"/>
                             <int id="1" val="0"/>
                             <int id="2" val="0.3"/>
                             <int id="3" val="0"/>
@@ -35,10 +27,15 @@
                     </or>
                 </if>
             </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="60" y="188">
+            <group eventID="-1" id="-1"/>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <draw comment="false" x="64" y="290">
+        <draw comment="false" x="60" y="260">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>

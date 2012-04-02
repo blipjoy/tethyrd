@@ -4,28 +4,28 @@
         <init comment="false" x="60" y="40">
             <group eventID="-1" id="-1">
                 <set-game-val-0 comment="false" x="71" y="65">
-                    <int id="0" val="4"/>
+                    <int id="0" val="3"/>
                 </set-game-val-0>
                 <custom-35 comment="false" x="71" y="85">
-                    <int id="0" val="928"/>
-                    <int id="1" val="734"/>
-                    <int id="2" val="0.08"/>
+                    <int id="0" val="285"/>
+                    <int id="1" val="90"/>
+                    <int id="2" val="0.3"/>
                 </custom-35>
                 <custom-35 comment="false" x="71" y="105">
-                    <int id="0" val="606"/>
-                    <int id="1" val="1438"/>
-                    <int id="2" val="0.05"/>
+                    <int id="0" val="544"/>
+                    <int id="1" val="544"/>
+                    <int id="2" val="0.1"/>
                 </custom-35>
                 <custom-35 comment="false" x="71" y="125">
-                    <int id="0" val="1632"/>
-                    <int id="1" val="1056"/>
-                    <int id="2" val="0.03"/>
+                    <int id="0" val="860"/>
+                    <int id="1" val="96"/>
+                    <int id="2" val="0.2"/>
                 </custom-35>
             </group>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="68" y="361">
+        <step comment="false" x="63" y="335">
             <group eventID="-1" id="-1"/>
         </step>
     </group>
