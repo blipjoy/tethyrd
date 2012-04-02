@@ -44,16 +44,15 @@
         <group desc="" id="8" name="Exits"/>
     </groups>
     <cgroups>
+        <cgroup g1="3" g2="3"/>
+        <cgroup g1="3" g2="0"/>
+        <cgroup g1="4" g2="5"/>
         <cgroup g1="7" g2="0"/>
         <cgroup g1="7" g2="6"/>
         <cgroup g1="7" g2="1"/>
-        <cgroup g1="8" g2="0"/>
-        <cgroup g1="4" g2="5"/>
         <cgroup g1="0" g2="0"/>
-        <cgroup g1="0" g2="3"/>
-        <cgroup g1="1" g2="6"/>
-        <cgroup g1="1" g2="3"/>
-        <cgroup g1="3" g2="3"/>
+        <cgroup g1="0" g2="8"/>
+        <cgroup g1="6" g2="1"/>
     </cgroups>
     <input>
         <key id="0" keyname="W" name="up" vk="87"/>
@@ -68,7 +67,9 @@
         <cat id="-1" name="Default"/>
     </attcats>
     <props/>
-    <attributes/>
+    <attributes>
+        <number cid="-1" id="0" name="level" save="true" value="0"/>
+    </attributes>
     <collisions>
         <poly id="1" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
         <poly id="2" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>

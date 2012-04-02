@@ -167,6 +167,7 @@
                 <prop id="1" list="0" val="false"/>
                 <prop id="2" list="0" val="false"/>
                 <prop id="3" list="0" val="false"/>
+                <prop id="4" list="0" val="0"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
