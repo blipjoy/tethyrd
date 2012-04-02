@@ -3,4 +3,5 @@
     <scene desc="" format="1.0" id="0" name="Test Level"/>
     <scene desc="" format="1.0" id="1" name="Level 1"/>
     <scene desc="" format="1.0" id="2" name="Level 2"/>
+    <scene desc="" format="1.0" id="3" name="Title Screen"/>
 </scenes>

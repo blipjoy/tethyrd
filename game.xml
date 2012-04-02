@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" aheight="480" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" default="1" defaultFramerate="60" desc="What if you lived in a world where all guns are required to be plugged into wall sockets? Now THAT would be a tactical shooter wouldn't it?" deviceOS="5.0" engine="0" format="1.0" gameid="-1" height="480" kit="false" lockURL="" mochi="" name="Tethyrd" ngID="" ngKey="" orientation="0" products="" projectType="web" scale="1.0" showAds="false" simulatorOS="5.0" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
+<game accelFramerate="0" adsPosition="0" aheight="480" appName="My Game" appType="0" author="" authorURL="" autoRotate="false" awidth="640" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" default="3" defaultFramerate="60" desc="What if you lived in a world where all guns are required to be plugged into wall sockets? Now THAT would be a tactical shooter wouldn't it?" deviceOS="5.0" engine="0" format="1.0" gameid="-1" height="480" kit="false" lockURL="" mochi="" name="Tethyrd" ngID="" ngKey="" orientation="0" products="" projectType="web" scale="1.0" showAds="false" simulatorOS="5.0" splashStyle="0" thumbstickStyle="0" useGlossyIcon="false" width="640">
     <folders>
         <group desc="" id="0" name="Levels" type="snippet">
             <r id="11"/>
@@ -60,6 +60,7 @@
         <key id="3" keyname="D" name="right" vk="68"/>
         <key id="7" keyname="F3" name="F3" vk="114"/>
         <key id="8" keyname="E" name="break" vk="69"/>
+        <key id="9" keyname="ENTER" name="Enter" vk="10"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -102,7 +103,7 @@
         <poly id="37" name="Outer Lower Right" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0#0.5,0.0#0.5,0.5"/>
     </collisions>
     <atlases>
-        <atlas dirty="true" id="0" members="2,5,9,20,27,29,36,32,4" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
+        <atlas dirty="true" id="0" members="2,5,9,20,27,29,36,32,4,54" name="Main Atlas (Default)" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" start="true" target="0"/>
         <atlas dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" start="true" target="0"/>

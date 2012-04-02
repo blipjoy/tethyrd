@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="1024" id="3" name="Level 3" revision="" savecount="0" tiled="1" tileh="64" tilew="64" type="standard" width="2048">
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="480" id="3" name="Title Screen" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
     </layers>
-    <grad-bg b1="255" b2="0" g1="0" g2="0" r1="255" r2="255"/>
-    <backgrounds/>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds>
+        <ref id="54"/>
+    </backgrounds>
     <foregrounds/>
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors>
-        <actor a="0.0" aid="17" c="false" group="5" id="20" sx="1.0" sy="1.0" x="2" y="412" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="5" id="20" sx="1.0" sy="1.0" x="421" y="345" z="0"/>
-        <actor a="0.0" aid="19" c="false" group="5" id="20" sx="1.0" sy="1.0" x="679" y="792" z="0"/>
-        <actor a="0.0" aid="18" c="false" group="5" id="20" sx="1.0" sy="1.0" x="6" y="923" z="0"/>
-        <actor a="0.0" aid="7" c="false" group="0" id="2" sx="1.0" sy="1.0" x="497" y="463" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="2" id="5" sx="1.0" sy="1.0" x="565" y="475" z="0"/>
-        <actor a="0.0" aid="15" c="false" group="5" id="20" sx="1.0" sy="1.0" x="996" y="535" z="0"/>
-    </actors>
+    <actors/>
     <snippets>
-        <s enabled="true" id="3"/>
-        <s enabled="true" id="4">
-            <prop id="1" list="0" val="false"/>
-        </s>
-        <s enabled="true" id="7">
-            <prop id="5" list="0" val="-1"/>
-            <prop id="6" list="0" val="0.0"/>
-            <prop id="7" list="0" val="0"/>
-            <prop id="10" list="0" val="-1"/>
-        </s>
         <s enabled="true" id="14"/>
     </snippets>
-    <terrain>
-        <p pts="36,0.0,960.0,0.0,640.0,192.0,640.0,192.0,448.0,0.0,448.0,0.0,320.0,192.0,320.0,192.0,256.0,0.0,256.0,0.0,0.0,128.0,0.0,128.0,64.0,384.0,64.0,384.0,384.0,512.0,384.0,512.0,64.0,704.0,64.0,704.0,512.0,320.0,512.0,320.0,128.0,256.0,128.0,256.0,704.0,64.0,704.0,64.0,896.0,384.0,896.0,384.0,576.0,640.0,576.0,640.0,896.0,704.0,896.0,704.0,704.0,896.0,704.0,896.0,448.0,960.0,448.0,960.0,704.0,1024.0,704.0,1024.0,960.0" x="32.0" y="32.0"/>
-    </terrain>
+    <terrain/>
 </scene>

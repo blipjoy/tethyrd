@@ -196,6 +196,7 @@
         <snippets/>
     </actor>
     <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="434" id="4" name="test_background" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
+    <background atlasID="0" desc="" durations="100" dx="-0.0" dy="-0.0" height="480" id="54" name="Title Screen Background" numframes="1" oid="-1" repeats="false" resized="false" shared="false" width="640" xpf="1.0" ypf="1.0"/>
     <custom-block blocktag="custom-16" blocktype="ACTION" code="scripts.Design_6_6_JointBlocks.UpdateMouseJoint(~,~);" desc="" global="true" gui="update mouse joint %0 [ this: %1 ]" id="16" message="UpdateMouseJoint" name="UpdateMouseJoint" oid="-1" return="VOID" shared="false" snippetID="6">
         <blank name="joint" order="0" type="OBJECT"/>
         <blank name="this" order="1" type="OBJECT"/>

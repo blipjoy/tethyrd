@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1">
+                <play-sound4 comment="false" x="71" y="65">
+                    <int id="0" val="0"/>
+                    <SOUND eid="53" id="1"/>
+                </play-sound4>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="60" y="150">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="71" y="175">
+                    <group eventID="-1" id="-1">
+                        <scene-change-new comment="false" x="82" y="213">
+                            <SCENE eid="1" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="2"/>
+                            <int id="3" val="0"/>
+                            <int id="4" val="2"/>
+                        </scene-change-new>
+                    </group>
+                    <or comment="false" id="0" x="0" y="0">
+                        <keystate comment="false" id="0" x="0" y="0">
+                            <int id="0" val="0"/>
+                            <CONTROL eid="9" id="1"/>
+                        </keystate>
+                        <mousestate comment="false" id="1" x="0" y="0">
+                            <int id="0" val="0"/>
+                        </mousestate>
+                    </or>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="305" y="44">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>
