@@ -3,32 +3,35 @@
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
             <group eventID="-1" id="-1">
-                <custom-35 comment="false" x="71" y="65">
+                <set-game-val-0 comment="false" x="71" y="65">
+                    <int id="0" val="1"/>
+                </set-game-val-0>
+                <custom-35 comment="false" x="71" y="85">
                     <int id="0" val="96"/>
                     <int id="1" val="545"/>
                     <int id="2" val="0.8"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="85">
+                <custom-35 comment="false" x="71" y="105">
                     <int id="0" val="800"/>
                     <int id="1" val="158"/>
                     <int id="2" val="1"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="105">
+                <custom-35 comment="false" x="71" y="125">
                     <int id="0" val="800"/>
                     <int id="1" val="800"/>
                     <int id="2" val="0.7"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="125">
+                <custom-35 comment="false" x="71" y="145">
                     <int id="0" val="1760"/>
                     <int id="1" val="288"/>
                     <int id="2" val="0.2"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="145">
+                <custom-35 comment="false" x="71" y="165">
                     <int id="0" val="1888"/>
                     <int id="1" val="608"/>
                     <int id="2" val="0.25"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="165">
+                <custom-35 comment="false" x="71" y="185">
                     <int id="0" val="1760"/>
                     <int id="1" val="864"/>
                     <int id="2" val="0.3"/>

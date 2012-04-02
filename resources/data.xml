@@ -102,7 +102,7 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" fixedrot="false" fric="0.2" gid="8" id="55" ignoreg="false" inertia="1.0" ldamp="0.0" lw="false" mass="1.0" name="Exit" oid="-1" pausable="true" rest="0.0" shared="false" sprite="56" static="true" touchable="true">
         <snippets>
-            <s enabled="true" id="15">
+            <s enabled="true" id="17">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>

@@ -259,10 +259,7 @@
                     <group eventID="-1" id="-1">
                         <if comment="false" x="429" y="697">
                             <group eventID="-1" id="-1">
-                                <set-game-val-0 comment="false" x="440" y="727">
-                                    <int id="0" val="1"/>
-                                </set-game-val-0>
-                                <scene-change-new comment="false" x="440" y="747">
+                                <scene-change-new comment="false" x="440" y="727">
                                     <SCENE eid="2" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="0.3"/>
@@ -275,12 +272,9 @@
                                 <int id="1" val="0"/>
                             </eq>
                         </if>
-                        <else-if comment="false" x="429" y="786">
+                        <else-if comment="false" x="429" y="766">
                             <group eventID="-1" id="-1">
-                                <set-game-val-0 comment="false" x="440" y="816">
-                                    <int id="0" val="2"/>
-                                </set-game-val-0>
-                                <scene-change-new comment="false" x="440" y="836">
+                                <scene-change-new comment="false" x="440" y="796">
                                     <SCENE eid="5" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="0.3"/>
@@ -293,17 +287,14 @@
                                 <int id="1" val="1"/>
                             </eq>
                         </else-if>
-                        <else-if comment="false" x="429" y="875">
+                        <else-if comment="false" x="429" y="835">
                             <group eventID="-1" id="-1">
-                                <set-game-val-0 comment="false" x="440" y="905">
-                                    <int id="0" val="0"/>
-                                </set-game-val-0>
-                                <scene-change-new comment="false" x="440" y="925">
-                                    <SCENE eid="3" id="0"/>
+                                <scene-change-new comment="false" x="440" y="865">
+                                    <SCENE eid="4" id="0"/>
                                     <int id="1" val="0"/>
-                                    <int id="2" val="2"/>
+                                    <int id="2" val="0.3"/>
                                     <int id="3" val="0"/>
-                                    <int id="4" val="2"/>
+                                    <int id="4" val="0.3"/>
                                 </scene-change-new>
                             </group>
                             <eq comment="false" id="0" x="0" y="0">
@@ -311,6 +302,32 @@
                                 <int id="1" val="2"/>
                             </eq>
                         </else-if>
+                        <else-if comment="false" x="429" y="904">
+                            <group eventID="-1" id="-1">
+                                <scene-change-new comment="false" x="440" y="934">
+                                    <SCENE eid="6" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0.3"/>
+                                    <int id="3" val="0"/>
+                                    <int id="4" val="0.3"/>
+                                </scene-change-new>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </eq>
+                        </else-if>
+                        <else comment="false" x="429" y="973">
+                            <group eventID="-1" id="-1">
+                                <scene-change-new comment="false" x="440" y="993">
+                                    <SCENE eid="3" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="2"/>
+                                    <int id="3" val="0"/>
+                                    <int id="4" val="2"/>
+                                </scene-change-new>
+                            </group>
+                        </else>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <collision-shape-group comment="false" id="0" x="0" y="0"/>

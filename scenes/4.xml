@@ -9,8 +9,25 @@
     <joints/>
     <regions/>
     <terrainRegions/>
-    <actors/>
-    <snippets/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="8" id="55" sx="1.0" sy="1.0" x="42" y="257" z="0"/>
+        <actor a="0.0" aid="2" c="false" group="8" id="55" sx="1.0" sy="1.0" x="640" y="665" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="0" id="2" sx="1.0" sy="1.0" x="918" y="220" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="2" id="5" sx="1.0" sy="1.0" x="985" y="218" z="0"/>
+    </actors>
+    <snippets>
+        <s enabled="true" id="18"/>
+        <s enabled="true" id="3"/>
+        <s enabled="true" id="4">
+            <prop id="1" list="0" val="false"/>
+        </s>
+        <s enabled="true" id="7">
+            <prop id="5" list="0" val="-1"/>
+            <prop id="6" list="0" val="0.0"/>
+            <prop id="7" list="0" val="0"/>
+            <prop id="10" list="0" val="-1"/>
+        </s>
+    </snippets>
     <terrain>
         <p pts="24,624.0,640.0,624.0,672.0,592.0,672.0,592.0,640.0,160.0,640.0,160.0,320.0,32.0,320.0,32.0,272.0,0.0,272.0,0.0,240.0,32.0,240.0,32.0,128.0,160.0,128.0,160.0,0.0,352.0,0.0,352.0,256.0,736.0,256.0,736.0,0.0,928.0,0.0,928.0,128.0,1056.0,128.0,1056.0,320.0,928.0,320.0,928.0,640.0" x="64.0" y="32.0"/>
     </terrain>

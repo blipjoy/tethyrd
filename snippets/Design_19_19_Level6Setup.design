@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="-1" id="0">
+        <init comment="false" x="60" y="40">
+            <group eventID="-1" id="-1">
+                <set-game-val-0 comment="false" x="71" y="65">
+                    <int id="0" val="4"/>
+                </set-game-val-0>
+                <custom-35 comment="true" x="71" y="85">
+                    <int id="0" val=""/>
+                    <int id="1" val=""/>
+                    <int id="2" val=""/>
+                </custom-35>
+            </group>
+        </init>
+    </group>
+    <group eventID="-1" id="1">
+        <step comment="false" x="68" y="361">
+            <group eventID="-1" id="-1"/>
+        </step>
+    </group>
+    <group eventID="-1" id="2">
+        <draw comment="false" x="60" y="260">
+            <group eventID="-1" id="-1"/>
+        </draw>
+    </group>
+    <group id="-1"/>
+</groups>

@@ -3,17 +3,20 @@
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
             <group eventID="-1" id="-1">
-                <custom-35 comment="false" x="71" y="65">
+                <set-game-val-0 comment="false" x="71" y="65">
+                    <int id="0" val="0"/>
+                </set-game-val-0>
+                <custom-35 comment="false" x="71" y="85">
                     <int id="0" val="600"/>
                     <int id="1" val="160"/>
                     <int id="2" val="0.5"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="85">
+                <custom-35 comment="false" x="71" y="105">
                     <int id="0" val="1780"/>
                     <int id="1" val="478"/>
                     <int id="2" val="0.1"/>
                 </custom-35>
-                <custom-35 comment="false" x="71" y="105">
+                <custom-35 comment="false" x="71" y="125">
                     <int id="0" val="352"/>
                     <int id="1" val="800"/>
                     <int id="2" val="0.5"/>

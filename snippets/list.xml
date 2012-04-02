@@ -114,11 +114,24 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet class="scripts.Design_15_15_Level4Setup" desc="" description="" design="true" drawOrder="0" id="15" language="" name="Level 4 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+    <snippet class="scripts.Design_15_15_Level4Setup" desc="" description="" design="true" drawOrder="0" id="15" language="" name="Level 3 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_17_17_ExitBehavior" desc="" description="" design="true" drawOrder="0" id="17" language="" name="Exit Behavior" oid="-1" package="scripts" scenespecific="false" shared="false" type="actor">
+        <actor default="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
         <blocks/>
         <events/>
     </snippet>
     <snippet class="scripts.Design_16_16_qatestsetup" desc="" description="" design="true" drawOrder="0" id="16" language="" name="qa_test_setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_19_19_Level6Setup" desc="" description="" design="true" drawOrder="0" id="19" language="" name="Level 6 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_18_18_Level5Setup" desc="" description="" design="true" drawOrder="0" id="18" language="" name="Level 5 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
         <blocks/>
         <events/>
     </snippet>
