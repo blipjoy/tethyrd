@@ -278,9 +278,27 @@
                         <else-if comment="false" x="429" y="786">
                             <group eventID="-1" id="-1">
                                 <set-game-val-0 comment="false" x="440" y="816">
-                                    <int id="0" val="0"/>
+                                    <int id="0" val="2"/>
                                 </set-game-val-0>
                                 <scene-change-new comment="false" x="440" y="836">
+                                    <SCENE eid="5" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0.3"/>
+                                    <int id="3" val="0"/>
+                                    <int id="4" val="0.3"/>
+                                </scene-change-new>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                        </else-if>
+                        <else-if comment="false" x="429" y="875">
+                            <group eventID="-1" id="-1">
+                                <set-game-val-0 comment="false" x="440" y="905">
+                                    <int id="0" val="0"/>
+                                </set-game-val-0>
+                                <scene-change-new comment="false" x="440" y="925">
                                     <SCENE eid="3" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="2"/>
@@ -290,7 +308,7 @@
                             </group>
                             <eq comment="false" id="0" x="0" y="0">
                                 <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
+                                <int id="1" val="2"/>
                             </eq>
                         </else-if>
                     </group>
