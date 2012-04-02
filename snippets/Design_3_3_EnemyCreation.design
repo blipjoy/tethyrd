@@ -2,36 +2,25 @@
 <groups>
     <group eventID="-1" id="0">
         <init comment="false" x="60" y="40">
-            <group eventID="-1" id="-1">
-                <play-sound4 comment="false" x="71" y="65">
-                    <int id="0" val="1"/>
-                    <SOUND eid="49" id="1"/>
-                </play-sound4>
-            </group>
+            <group eventID="-1" id="-1"/>
         </init>
     </group>
     <group eventID="-1" id="1">
-        <step comment="false" x="61" y="271">
+        <step comment="false" x="61" y="202">
             <group eventID="-1" id="-1"/>
         </step>
     </group>
     <group eventID="-1" id="2">
-        <draw comment="false" x="56" y="195">
+        <draw comment="false" x="58" y="123">
             <group eventID="-1" id="-1"/>
         </draw>
     </group>
-    <group eventID="-1" id="3">
-        <receive-message comment="false" x="57" y="120">
-            <group eventID="-1" id="-1"/>
-            <int id="0" val="Create_Enemy1"/>
-        </receive-message>
-    </group>
     <group eventID="-1" id="4">
-        <receiver-3-35 comment="false" x="64" y="346">
+        <receiver-3-35 comment="false" x="58" y="288">
             <group eventID="-1" id="-1">
-                <periodic comment="false" x="75" y="376">
+                <periodic comment="false" x="69" y="318">
                     <group eventID="-1" id="-1">
-                        <create-actor3 comment="false" x="86" y="408">
+                        <create-actor3 comment="false" x="80" y="350">
                             <ACTORTYPE eid="27" id="0"/>
                             <get-byobval-3-35-0 comment="false" id="1" x="0" y="0"/>
                             <get-byobval-3-35-1 comment="false" id="2" x="0" y="0"/>
