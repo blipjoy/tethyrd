@@ -98,7 +98,7 @@
     <custom-block blocktag="custom-11" blocktype="NORMAL" code="((scripts.Design_6_6_JointBlocks.LastCreatedJoint(~)))" desc="" global="true" gui="last created joint [ this: %0 ]" id="11" message="LastCreatedJoint" name="LastCreatedJoint" oid="-1" return="OBJECT" shared="false" snippetID="6">
         <blank name="this" order="0" type="OBJECT"/>
     </custom-block>
-    <tileset across="6" atlasID="0" desc="" down="4" id="32" name="Level 1 Tileset" oid="-1" shared="false" th="64" tw="64">
+    <tileset across="6" atlasID="0" desc="" down="6" id="32" name="Level 1 Tileset" oid="-1" shared="false" th="64" tw="64">
         <tile collision="30" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="27" data="" durations="100" frames="1" id="1" order="-1"/>
         <tile collision="27" data="" durations="100" frames="2" id="2" order="-1"/>
@@ -123,6 +123,18 @@
         <tile collision="33" data="" durations="100" frames="21" id="21" order="-1"/>
         <tile collision="36" data="" durations="100" frames="22" id="22" order="-1"/>
         <tile collision="37" data="" durations="100" frames="23" id="23" order="-1"/>
+        <tile collision="27" data="" durations="100" frames="24" id="24" order="-1"/>
+        <tile collision="27" data="" durations="100" frames="25" id="25" order="-1"/>
+        <tile collision="29" data="" durations="100" frames="26" id="26" order="-1"/>
+        <tile collision="29" data="" durations="100" frames="27" id="27" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="28" id="28" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="29" id="29" order="-1"/>
+        <tile collision="26" data="" durations="100" frames="30" id="30" order="-1"/>
+        <tile collision="26" data="" durations="100" frames="31" id="31" order="-1"/>
+        <tile collision="28" data="" durations="100" frames="32" id="32" order="-1"/>
+        <tile collision="28" data="" durations="100" frames="33" id="33" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="34" id="34" order="-1"/>
+        <tile collision="-1" data="" durations="100" frames="35" id="35" order="-1"/>
     </tileset>
     <music desc="" id="50" loop="true" name="Pickup 1" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <music desc="" id="51" loop="true" name="Pickup 2" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
