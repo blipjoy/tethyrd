@@ -119,4 +119,12 @@
         <blocks/>
         <events/>
     </snippet>
+    <snippet class="scripts.Design_15_15_Level4Setup" desc="" description="" design="true" drawOrder="0" id="15" language="" name="Level 4 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet class="scripts.Design_16_16_qatestsetup" desc="" description="" design="true" drawOrder="0" id="16" language="" name="qa_test_setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
