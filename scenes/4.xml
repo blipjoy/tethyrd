@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" format="1.0" gravx="-0.0" gravy="0.0" height="1024" id="4" name="Level 5" revision="" savecount="0" tiled="1" tileh="64" tilew="64" type="standard" width="2048">
+    <layers>
+        <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
+    </layers>
+    <color-bg blue="255" green="255" red="255"/>
+    <backgrounds/>
+    <foregrounds/>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors/>
+    <snippets/>
+    <terrain>
+        <p pts="24,624.0,640.0,624.0,672.0,592.0,672.0,592.0,640.0,160.0,640.0,160.0,320.0,32.0,320.0,32.0,272.0,0.0,272.0,0.0,240.0,32.0,240.0,32.0,128.0,160.0,128.0,160.0,0.0,352.0,0.0,352.0,256.0,736.0,256.0,736.0,0.0,928.0,0.0,928.0,128.0,1056.0,128.0,1056.0,320.0,928.0,320.0,928.0,640.0" x="64.0" y="32.0"/>
+    </terrain>
+</scene>
