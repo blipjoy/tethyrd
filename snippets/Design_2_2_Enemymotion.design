@@ -50,16 +50,56 @@
                             </group>
                             <more comment="false" id="0" x="0" y="0">
                                 <get-val-2-2 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="1"/>
+                                <int id="1" val="0"/>
                             </more>
                         </if>
-                        <else comment="false" x="78" y="396">
+                        <if comment="false" x="78" y="396">
                             <group eventID="-1" id="-1">
-                                <die comment="false" x="89" y="416">
+                                <set-val-2-5 comment="false" x="89" y="426">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-val-2-5>
+                                <setanim comment="false" x="89" y="451">
                                     <ACTOR eid="this" id="0"/>
-                                </die>
+                                    <int id="1" val="Dead"/>
+                                </setanim>
+                                <toggle-rot comment="false" x="89" y="478">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                </toggle-rot>
+                                <setav comment="false" x="89" y="505">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                </setav>
+                                <set-dxy comment="false" x="89" y="532">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="89" y="559">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-fric-bounce comment="false" x="89" y="586">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="1.0"/>
+                                </set-fric-bounce>
+                                <dolater comment="false" x="89" y="613">
+                                    <group eventID="-1" id="-1">
+                                        <die comment="false" x="100" y="640">
+                                            <ACTOR eid="this" id="0"/>
+                                        </die>
+                                    </group>
+                                    <int id="0" val="1"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
                             </group>
-                        </else>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-val-2-2 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="0"/>
+                            </eq>
+                        </if>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <collision-shape-group comment="false" id="0" x="0" y="0"/>
@@ -72,12 +112,12 @@
         </collide>
     </group>
     <group eventID="-1" id="3">
-        <draw comment="false" x="57" y="527">
+        <draw comment="false" x="57" y="745">
             <group eventID="-1" id="-1">
-                <set-color comment="false" x="68" y="552">
+                <set-color comment="false" x="68" y="770">
                     <color b="51" g="51" id="0" r="255"/>
                 </set-color>
-                <drawfill-rect comment="false" x="68" y="579">
+                <drawfill-rect comment="false" x="68" y="797">
                     <int id="0" val="1"/>
                     <int id="1" val="0"/>
                     <int id="2" val="0"/>
