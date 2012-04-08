@@ -3,19 +3,19 @@
     <layers>
         <layer color="100,168,234" id="0" name="Layer 0" order="0"/>
     </layers>
-    <color-bg blue="255" green="255" red="255"/>
+    <grad-bg b1="255" b2="210" g1="255" g2="210" r1="255" r2="210"/>
     <backgrounds/>
     <foregrounds/>
     <joints/>
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="2" sx="1.0" sy="1.0" x="111" y="147" z="0"/>
+        <actor a="0.0" aid="1" c="false" group="0" id="2" sx="1.0" sy="1.0" x="74" y="193" z="0"/>
         <actor a="0.0" aid="2" c="false" group="5" id="20" sx="1.0" sy="1.0" x="532" y="8" z="0"/>
         <actor a="0.0" aid="3" c="false" group="5" id="20" sx="1.0" sy="1.0" x="708" y="472" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="5" id="20" sx="1.0" sy="1.0" x="1957" y="534" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="2" id="5" sx="1.0" sy="1.0" x="225" y="147" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="2" id="5" sx="1.0" sy="1.0" x="174" y="193" z="0"/>
         <actor a="0.0" aid="6" c="false" group="8" id="55" sx="1.0" sy="1.0" x="1939" y="576" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="5" id="20" sx="1.0" sy="1.0" x="1429" y="775" z="0"/>
     </actors>
     <snippets>
         <s enabled="true" id="3"/>
@@ -31,6 +31,7 @@
         <s enabled="true" id="11"/>
     </snippets>
     <terrain>
+        <p pts="4,512.0,0.0,0.0,0.0,0.0,448.0,512.0,448.0" x="1056.0" y="352.0"/>
         <p pts="16,1792.0,640.0,1792.0,960.0,256.0,960.0,256.0,640.0,704.0,640.0,704.0,320.0,384.0,320.0,384.0,512.0,0.0,512.0,0.0,0.0,1920.0,0.0,1920.0,560.0,1952.0,560.0,1952.0,592.0,1920.0,592.0,1920.0,640.0" x="32.0" y="32.0"/>
     </terrain>
 </scene>

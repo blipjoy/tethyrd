@@ -102,10 +102,6 @@
         <blocks/>
         <events/>
     </snippet>
-    <snippet class="scripts.Design_12_12_TestLevelSetup" desc="" description="" design="true" drawOrder="0" id="12" language="" name="Test Level Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
-        <blocks/>
-        <events/>
-    </snippet>
     <snippet class="scripts.Design_13_13_Level2Setup" desc="" description="" design="true" drawOrder="0" id="13" language="" name="Level 2 Setup" oid="-1" package="scripts" scenespecific="false" shared="false" type="scene">
         <blocks/>
         <events/>

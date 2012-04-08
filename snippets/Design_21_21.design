@@ -14,11 +14,16 @@
                 <custom-35 comment="false" x="71" y="105">
                     <int id="0" val="544"/>
                     <int id="1" val="544"/>
-                    <int id="2" val="0.1"/>
+                    <int id="2" val="0.4"/>
                 </custom-35>
                 <custom-35 comment="false" x="71" y="125">
                     <int id="0" val="860"/>
                     <int id="1" val="96"/>
+                    <int id="2" val="0.4"/>
+                </custom-35>
+                <custom-35 comment="false" x="71" y="145">
+                    <int id="0" val="1760"/>
+                    <int id="1" val="480"/>
                     <int id="2" val="0.2"/>
                 </custom-35>
             </group>
